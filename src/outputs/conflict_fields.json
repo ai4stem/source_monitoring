@@ -1,0 +1,418 @@
+[
+  {
+    "model": "gemma3-12b",
+    "n_conflict": 101,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 101,
+    "sample_item": {
+      "question": "According to the passage, what is the name of a type of whale and also a type of",
+      "context": "According to the reference document, the answer to the following question is At ",
+      "target": "At least 6 grams. Silver medals must be at least .925 sterling silver",
+      "parametric_lure": "Beluga",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n_conflict": 94,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 94,
+    "sample_item": {
+      "question": "According to the passage, which Robert L Stevenson novel of 1883 was originally ",
+      "context": "According to the reference document, the answer to the following question is Sil",
+      "target": "Silver",
+      "parametric_lure": "Treasure Island",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "llama32-1b",
+    "n_conflict": 95,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 95,
+    "sample_item": {
+      "question": "According to the passage, which German international rejoined Spurs in 1997",
+      "context": "According to the reference document, the answer to the following question is Art",
+      "target": "Articles of Confederation",
+      "parametric_lure": "Jurgen Klinsmann",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "llama32-3b",
+    "n_conflict": 101,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 101,
+    "sample_item": {
+      "question": "According to the passage, what is the name of a type of whale and also a type of",
+      "context": "According to the reference document, the answer to the following question is At ",
+      "target": "At least 6 grams. Silver medals must be at least .925 sterling silver",
+      "parametric_lure": "Beluga",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "mistral-7b",
+    "n_conflict": 97,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 97,
+    "sample_item": {
+      "question": "According to the passage, where do locusts lay their eggs?",
+      "context": "According to the reference document, the answer to the following question is DIC",
+      "target": "DICK BENTLEY",
+      "parametric_lure": "In sand",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n_conflict": 98,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 98,
+    "sample_item": {
+      "question": "According to the passage, which English artist\u2019s first names were Joseph Mallord",
+      "context": "According to the reference document, the answer to the following question is Sou",
+      "target": "South Africa",
+      "parametric_lure": "Turner",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n_conflict": 94,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 94,
+    "sample_item": {
+      "question": "According to the passage, which Robert L Stevenson novel of 1883 was originally ",
+      "context": "According to the reference document, the answer to the following question is Sil",
+      "target": "Silver",
+      "parametric_lure": "Treasure Island",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "phi4-mini",
+    "n_conflict": 114,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 114,
+    "sample_item": {
+      "question": "According to the passage, which pop artist won the Oscar for the best original s",
+      "context": "According to the reference document, the answer to the following question is Han",
+      "target": "Hannah Gordon",
+      "parametric_lure": "ADELE",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n_conflict": 101,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 101,
+    "sample_item": {
+      "question": "According to the passage, what technical word is given usually to the left-side ",
+      "context": "According to the reference document, the answer to the following question is Cel",
+      "target": "Cell",
+      "parametric_lure": "Verso",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "qwen3-14b",
+    "n_conflict": 97,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 97,
+    "sample_item": {
+      "question": "According to the passage, what is cryptology the study of",
+      "context": "According to the reference document, the answer to the following question is 186",
+      "target": "1863",
+      "parametric_lure": "Codes and ciphers",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "qwen3-32b",
+    "n_conflict": 101,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 101,
+    "sample_item": {
+      "question": "According to the passage, jupiter is the largest planet in the solar system. Wha",
+      "context": "According to the reference document, the answer to the following question is Che",
+      "target": "Cheshire",
+      "parametric_lure": "Saturn",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "qwen3-4b",
+    "n_conflict": 105,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 105,
+    "sample_item": {
+      "question": "According to the passage, former footballer Vinnie Jones captained which nationa",
+      "context": "According to the reference document, the answer to the following question is CUB",
+      "target": "CUBA",
+      "parametric_lure": "Wales",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  },
+  {
+    "model": "qwen3-8b",
+    "n_conflict": 98,
+    "n_control": 0,
+    "conflict_fields": [
+      "answer_aliases",
+      "claims",
+      "context",
+      "context_char_span",
+      "id",
+      "item_type",
+      "list_type",
+      "lure",
+      "parametric_lure",
+      "probe_kind",
+      "question",
+      "stability",
+      "target"
+    ],
+    "gold_like_fields": [
+      "answer_aliases"
+    ],
+    "has_parametric_lure": 98,
+    "sample_item": {
+      "question": "According to the passage, \"Sir Edwin Henry Landseer's painting \"\"Monarch of the ",
+      "context": "According to the reference document, the answer to the following question is A N",
+      "target": "A NEW HOPE",
+      "parametric_lure": "Deer",
+      "answer_aliases": "None",
+      "probe_kind": "conflict"
+    }
+  }
+]

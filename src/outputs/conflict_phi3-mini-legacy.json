@@ -1,0 +1,9 @@
+{
+  "model": "phi3-mini-legacy",
+  "size_b": 3.8,
+  "n_conflict": 94,
+  "n_control": 0,
+  "verbatim_override": 0.3617,
+  "followed_parametric": 0.3298,
+  "over_deference": null
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "model": "llama32-1b",
+    "n_matched_pairs": 1573,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.7118,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n_matched_pairs": 1406,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.6615,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "llama32-3b",
+    "n_matched_pairs": 1607,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.7022,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "phi4-mini",
+    "n_matched_pairs": 1523,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.674,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n_matched_pairs": 1549,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.7121,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "qwen3-4b",
+    "n_matched_pairs": 1622,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.673,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "mistral-7b",
+    "n_matched_pairs": 2241,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.7363,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "qwen3-8b",
+    "n_matched_pairs": 1634,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.6925,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n_matched_pairs": 1708,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.6862,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "gemma3-12b",
+    "n_matched_pairs": 1736,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.7289,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n_matched_pairs": 1568,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.6867,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "qwen3-14b",
+    "n_matched_pairs": 1596,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.703,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  },
+  {
+    "model": "qwen3-32b",
+    "n_matched_pairs": 1562,
+    "caliper": 0.05,
+    "Q2_truth_matched_AUROC": 0.733,
+    "Q2_support_only_AUROC": 0.5,
+    "Q2_entropy_only_AUROC": 0.5
+  }
+]

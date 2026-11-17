@@ -1,0 +1,743 @@
+[
+  {
+    "model": "gemma3-12b",
+    "popqa": {
+      "n_correct": 513,
+      "n_incorrect": 1487,
+      "pop_only_all": {
+        "subject": 0.723,
+        "answer": 0.7075
+      },
+      "support": {
+        "n_pairs": 380,
+        "truth_AUROC": 0.677,
+        "support_only": 0.5,
+        "subject_pop_only": 0.7041,
+        "answer_pop_only": 0.6556,
+        "relation_only": 0.6951
+      },
+      "support_relation": {
+        "n_pairs": 318,
+        "truth_AUROC": 0.6119,
+        "support_only": 0.5,
+        "subject_pop_only": 0.7189,
+        "answer_pop_only": 0.6139
+      },
+      "support_relation_spop": {
+        "n_pairs": 188,
+        "truth_AUROC": 0.5785,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5056,
+        "answer_pop_only": 0.5774
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 104,
+        "truth_AUROC": 0.5941,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5093,
+        "answer_pop_only": 0.5087
+      }
+    },
+    "strict": {
+      "n_pairs": 947,
+      "truth_AUROC": 0.5792,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6263,
+    "primary_mlp": 0.6427,
+    "permuted": {
+      "values": [
+        0.5195,
+        0.5293,
+        0.5153,
+        0.5064,
+        0.5155
+      ],
+      "mean": 0.5172
+    }
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "popqa": {
+      "n_correct": 677,
+      "n_incorrect": 1323,
+      "pop_only_all": {
+        "subject": 0.7375,
+        "answer": 0.6789
+      },
+      "support": {
+        "n_pairs": 460,
+        "truth_AUROC": 0.6626,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6961,
+        "answer_pop_only": 0.6595,
+        "relation_only": 0.6251
+      },
+      "support_relation": {
+        "n_pairs": 410,
+        "truth_AUROC": 0.6064,
+        "support_only": 0.5,
+        "subject_pop_only": 0.7094,
+        "answer_pop_only": 0.5999
+      },
+      "support_relation_spop": {
+        "n_pairs": 257,
+        "truth_AUROC": 0.6239,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5103,
+        "answer_pop_only": 0.5344
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 141,
+        "truth_AUROC": 0.6019,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5135,
+        "answer_pop_only": 0.4985
+      }
+    },
+    "strict": {
+      "n_pairs": 1017,
+      "truth_AUROC": 0.5961,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6086,
+    "primary_mlp": 0.6126,
+    "permuted": {
+      "values": [
+        0.5228,
+        0.4843,
+        0.5058,
+        0.5237,
+        0.4975
+      ],
+      "mean": 0.5068
+    }
+  },
+  {
+    "model": "llama32-1b",
+    "popqa": {
+      "n_correct": 286,
+      "n_incorrect": 1714,
+      "pop_only_all": {
+        "subject": 0.7361,
+        "answer": 0.7119
+      },
+      "support": {
+        "n_pairs": 200,
+        "truth_AUROC": 0.7055,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6575,
+        "answer_pop_only": 0.6556,
+        "relation_only": 0.7048
+      },
+      "support_relation": {
+        "n_pairs": 165,
+        "truth_AUROC": 0.6087,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6739,
+        "answer_pop_only": 0.5911
+      },
+      "support_relation_spop": {
+        "n_pairs": 95,
+        "truth_AUROC": 0.4693,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5143,
+        "answer_pop_only": 0.5319
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 67,
+        "truth_AUROC": 0.491,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5109,
+        "answer_pop_only": 0.5088
+      }
+    },
+    "strict": {
+      "n_pairs": 1102,
+      "truth_AUROC": 0.5986,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6023,
+    "primary_mlp": 0.6486,
+    "permuted": {
+      "values": [
+        0.5288,
+        0.4988,
+        0.4937,
+        0.5041,
+        0.5174
+      ],
+      "mean": 0.5086
+    }
+  },
+  {
+    "model": "llama32-3b",
+    "popqa": {
+      "n_correct": 429,
+      "n_incorrect": 1571,
+      "pop_only_all": {
+        "subject": 0.7669,
+        "answer": 0.688
+      },
+      "support": {
+        "n_pairs": 275,
+        "truth_AUROC": 0.6701,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6778,
+        "answer_pop_only": 0.6653,
+        "relation_only": 0.6768
+      },
+      "support_relation": {
+        "n_pairs": 239,
+        "truth_AUROC": 0.6303,
+        "support_only": 0.5,
+        "subject_pop_only": 0.7094,
+        "answer_pop_only": 0.6001
+      },
+      "support_relation_spop": {
+        "n_pairs": 145,
+        "truth_AUROC": 0.5702,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5035,
+        "answer_pop_only": 0.5361
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 80,
+        "truth_AUROC": 0.5992,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5054,
+        "answer_pop_only": 0.5152
+      }
+    },
+    "strict": {
+      "n_pairs": 979,
+      "truth_AUROC": 0.6028,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6137,
+    "primary_mlp": 0.6377,
+    "permuted": {
+      "values": [
+        0.5039,
+        0.5085,
+        0.4899,
+        0.5387,
+        0.5295
+      ],
+      "mean": 0.5141
+    }
+  },
+  {
+    "model": "mistral-7b",
+    "popqa": {
+      "n_correct": 664,
+      "n_incorrect": 1336,
+      "pop_only_all": {
+        "subject": 0.7358,
+        "answer": 0.699
+      },
+      "support": {
+        "n_pairs": 479,
+        "truth_AUROC": 0.6766,
+        "support_only": 0.5,
+        "subject_pop_only": 0.7162,
+        "answer_pop_only": 0.6656,
+        "relation_only": 0.6835
+      },
+      "support_relation": {
+        "n_pairs": 412,
+        "truth_AUROC": 0.653,
+        "support_only": 0.5,
+        "subject_pop_only": 0.7383,
+        "answer_pop_only": 0.6305
+      },
+      "support_relation_spop": {
+        "n_pairs": 289,
+        "truth_AUROC": 0.5972,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5105,
+        "answer_pop_only": 0.5648
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 190,
+        "truth_AUROC": 0.6236,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5109,
+        "answer_pop_only": 0.4989
+      }
+    },
+    "strict": {
+      "n_pairs": 1193,
+      "truth_AUROC": 0.6193,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6312,
+    "primary_mlp": 0.6635,
+    "permuted": {
+      "values": [
+        0.5214,
+        0.5203,
+        0.4959,
+        0.5029,
+        0.5129
+      ],
+      "mean": 0.5107
+    }
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "popqa": {
+      "n_correct": 689,
+      "n_incorrect": 1311,
+      "pop_only_all": {
+        "subject": 0.7136,
+        "answer": 0.6984
+      },
+      "support": {
+        "n_pairs": 447,
+        "truth_AUROC": 0.6793,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6712,
+        "answer_pop_only": 0.6389,
+        "relation_only": 0.6832
+      },
+      "support_relation": {
+        "n_pairs": 349,
+        "truth_AUROC": 0.5713,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6917,
+        "answer_pop_only": 0.601
+      },
+      "support_relation_spop": {
+        "n_pairs": 221,
+        "truth_AUROC": 0.6,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5036,
+        "answer_pop_only": 0.5632
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 122,
+        "truth_AUROC": 0.6309,
+        "support_only": 0.5,
+        "subject_pop_only": 0.4937,
+        "answer_pop_only": 0.5067
+      }
+    },
+    "strict": {
+      "n_pairs": 947,
+      "truth_AUROC": 0.5673,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6186,
+    "primary_mlp": 0.6181,
+    "permuted": {
+      "values": [
+        0.5076,
+        0.5038,
+        0.5016,
+        0.5148,
+        0.5209
+      ],
+      "mean": 0.5098
+    }
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "popqa": {
+      "n_correct": 467,
+      "n_incorrect": 1533,
+      "pop_only_all": {
+        "subject": 0.679,
+        "answer": 0.733
+      },
+      "support": {
+        "n_pairs": 309,
+        "truth_AUROC": 0.6484,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6201,
+        "answer_pop_only": 0.6692,
+        "relation_only": 0.7167
+      },
+      "support_relation": {
+        "n_pairs": 253,
+        "truth_AUROC": 0.5523,
+        "support_only": 0.5,
+        "subject_pop_only": 0.674,
+        "answer_pop_only": 0.6081
+      },
+      "support_relation_spop": {
+        "n_pairs": 169,
+        "truth_AUROC": 0.5977,
+        "support_only": 0.5,
+        "subject_pop_only": 0.502,
+        "answer_pop_only": 0.5337
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 101,
+        "truth_AUROC": 0.5577,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5083,
+        "answer_pop_only": 0.5045
+      }
+    },
+    "strict": {
+      "n_pairs": 1067,
+      "truth_AUROC": 0.598,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.5804,
+    "primary_mlp": 0.6004,
+    "permuted": {
+      "values": [
+        0.495,
+        0.517,
+        0.5177,
+        0.5101,
+        0.5222
+      ],
+      "mean": 0.5124
+    }
+  },
+  {
+    "model": "phi4-mini",
+    "popqa": {
+      "n_correct": 372,
+      "n_incorrect": 1628,
+      "pop_only_all": {
+        "subject": 0.6491,
+        "answer": 0.7525
+      },
+      "support": {
+        "n_pairs": 268,
+        "truth_AUROC": 0.6983,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6153,
+        "answer_pop_only": 0.5966,
+        "relation_only": 0.7134
+      },
+      "support_relation": {
+        "n_pairs": 208,
+        "truth_AUROC": 0.5407,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6252,
+        "answer_pop_only": 0.6036
+      },
+      "support_relation_spop": {
+        "n_pairs": 139,
+        "truth_AUROC": 0.5557,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5018,
+        "answer_pop_only": 0.5643
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 67,
+        "truth_AUROC": 0.6324,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5059,
+        "answer_pop_only": 0.527
+      }
+    },
+    "strict": {
+      "n_pairs": 1005,
+      "truth_AUROC": 0.5691,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6089,
+    "primary_mlp": 0.6108,
+    "permuted": {
+      "values": [
+        0.5114,
+        0.5067,
+        0.5239,
+        0.5328,
+        0.501
+      ],
+      "mean": 0.5151
+    }
+  },
+  {
+    "model": "qwen3-1.7b",
+    "popqa": {
+      "n_correct": 314,
+      "n_incorrect": 1686,
+      "pop_only_all": {
+        "subject": 0.578,
+        "answer": 0.7929
+      },
+      "support": {
+        "n_pairs": 267,
+        "truth_AUROC": 0.7217,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5875,
+        "answer_pop_only": 0.7199,
+        "relation_only": 0.7981
+      },
+      "support_relation": {
+        "n_pairs": 192,
+        "truth_AUROC": 0.6157,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6372,
+        "answer_pop_only": 0.6115
+      },
+      "support_relation_spop": {
+        "n_pairs": 121,
+        "truth_AUROC": 0.6101,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5014,
+        "answer_pop_only": 0.5907
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 72,
+        "truth_AUROC": 0.565,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5008,
+        "answer_pop_only": 0.5199
+      }
+    },
+    "strict": {
+      "n_pairs": 1076,
+      "truth_AUROC": 0.6085,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6125,
+    "primary_mlp": 0.6481,
+    "permuted": {
+      "values": [
+        0.5043,
+        0.5116,
+        0.5337,
+        0.5239,
+        0.5168
+      ],
+      "mean": 0.518
+    }
+  },
+  {
+    "model": "qwen3-14b",
+    "popqa": {
+      "n_correct": 534,
+      "n_incorrect": 1466,
+      "pop_only_all": {
+        "subject": 0.6887,
+        "answer": 0.735
+      },
+      "support": {
+        "n_pairs": 380,
+        "truth_AUROC": 0.6637,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6512,
+        "answer_pop_only": 0.647,
+        "relation_only": 0.6755
+      },
+      "support_relation": {
+        "n_pairs": 315,
+        "truth_AUROC": 0.5432,
+        "support_only": 0.5,
+        "subject_pop_only": 0.71,
+        "answer_pop_only": 0.6373
+      },
+      "support_relation_spop": {
+        "n_pairs": 195,
+        "truth_AUROC": 0.5526,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5062,
+        "answer_pop_only": 0.5921
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 90,
+        "truth_AUROC": 0.5775,
+        "support_only": 0.5,
+        "subject_pop_only": 0.4973,
+        "answer_pop_only": 0.5117
+      }
+    },
+    "strict": {
+      "n_pairs": 980,
+      "truth_AUROC": 0.6059,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6344,
+    "primary_mlp": 0.6523,
+    "permuted": {
+      "values": [
+        0.5154,
+        0.5112,
+        0.4996,
+        0.5108,
+        0.513
+      ],
+      "mean": 0.51
+    }
+  },
+  {
+    "model": "qwen3-32b",
+    "popqa": {
+      "n_correct": 554,
+      "n_incorrect": 1446,
+      "pop_only_all": {
+        "subject": 0.6875,
+        "answer": 0.7287
+      },
+      "support": {
+        "n_pairs": 385,
+        "truth_AUROC": 0.6776,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6287,
+        "answer_pop_only": 0.6665,
+        "relation_only": 0.69
+      },
+      "support_relation": {
+        "n_pairs": 322,
+        "truth_AUROC": 0.5764,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6659,
+        "answer_pop_only": 0.6275
+      },
+      "support_relation_spop": {
+        "n_pairs": 205,
+        "truth_AUROC": 0.5689,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5032,
+        "answer_pop_only": 0.5664
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 106,
+        "truth_AUROC": 0.5259,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5037,
+        "answer_pop_only": 0.5002
+      }
+    },
+    "strict": {
+      "n_pairs": 889,
+      "truth_AUROC": 0.6109,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6174,
+    "primary_mlp": 0.609,
+    "permuted": {
+      "values": [
+        0.5066,
+        0.5137,
+        0.5087,
+        0.5134,
+        0.5191
+      ],
+      "mean": 0.5123
+    }
+  },
+  {
+    "model": "qwen3-4b",
+    "popqa": {
+      "n_correct": 353,
+      "n_incorrect": 1647,
+      "pop_only_all": {
+        "subject": 0.6318,
+        "answer": 0.7582
+      },
+      "support": {
+        "n_pairs": 288,
+        "truth_AUROC": 0.677,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5944,
+        "answer_pop_only": 0.6748,
+        "relation_only": 0.7695
+      },
+      "support_relation": {
+        "n_pairs": 218,
+        "truth_AUROC": 0.5939,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6375,
+        "answer_pop_only": 0.6063
+      },
+      "support_relation_spop": {
+        "n_pairs": 143,
+        "truth_AUROC": 0.5514,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5082,
+        "answer_pop_only": 0.5523
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 76,
+        "truth_AUROC": 0.5312,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5091,
+        "answer_pop_only": 0.516
+      }
+    },
+    "strict": {
+      "n_pairs": 1160,
+      "truth_AUROC": 0.6186,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6129,
+    "primary_mlp": 0.6434,
+    "permuted": {
+      "values": [
+        0.5039,
+        0.5026,
+        0.509,
+        0.5068,
+        0.5032
+      ],
+      "mean": 0.5051
+    }
+  },
+  {
+    "model": "qwen3-8b",
+    "popqa": {
+      "n_correct": 466,
+      "n_incorrect": 1534,
+      "pop_only_all": {
+        "subject": 0.6596,
+        "answer": 0.7461
+      },
+      "support": {
+        "n_pairs": 366,
+        "truth_AUROC": 0.6635,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6176,
+        "answer_pop_only": 0.6871,
+        "relation_only": 0.7378
+      },
+      "support_relation": {
+        "n_pairs": 285,
+        "truth_AUROC": 0.5193,
+        "support_only": 0.5,
+        "subject_pop_only": 0.6856,
+        "answer_pop_only": 0.6232
+      },
+      "support_relation_spop": {
+        "n_pairs": 170,
+        "truth_AUROC": 0.5067,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5096,
+        "answer_pop_only": 0.5797
+      },
+      "support_relation_spop_opop": {
+        "n_pairs": 90,
+        "truth_AUROC": 0.5956,
+        "support_only": 0.5,
+        "subject_pop_only": 0.5048,
+        "answer_pop_only": 0.515
+      }
+    },
+    "strict": {
+      "n_pairs": 1102,
+      "truth_AUROC": 0.6081,
+      "support_only": 0.5
+    },
+    "primary_linear": 0.6315,
+    "primary_mlp": 0.6676,
+    "permuted": {
+      "values": [
+        0.5266,
+        0.5051,
+        0.5009,
+        0.4887,
+        0.5068
+      ],
+      "mean": 0.5056
+    }
+  }
+]

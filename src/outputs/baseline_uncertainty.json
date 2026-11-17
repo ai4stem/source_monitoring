@@ -1,0 +1,106 @@
+[
+  {
+    "model": "gemma3-12b",
+    "n_parametric": 3343,
+    "n_confabulated": 2203,
+    "auroc_self_consistency": 0.7703,
+    "auroc_semantic_entropy": 0.7752,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n_parametric": 3534,
+    "n_confabulated": 1955,
+    "auroc_self_consistency": 0.7467,
+    "auroc_semantic_entropy": 0.7618,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "llama32-1b",
+    "n_parametric": 1666,
+    "n_confabulated": 3625,
+    "auroc_self_consistency": 0.7387,
+    "auroc_semantic_entropy": 0.7451,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "llama32-3b",
+    "n_parametric": 2543,
+    "n_confabulated": 2848,
+    "auroc_self_consistency": 0.784,
+    "auroc_semantic_entropy": 0.8009,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "mistral-7b",
+    "n_parametric": 3574,
+    "n_confabulated": 2012,
+    "auroc_self_consistency": 0.5823,
+    "auroc_semantic_entropy": 0.5822,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n_parametric": 3556,
+    "n_confabulated": 1854,
+    "auroc_self_consistency": 0.7781,
+    "auroc_semantic_entropy": 0.7817,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n_parametric": 2662,
+    "n_confabulated": 2655,
+    "auroc_self_consistency": 0.7797,
+    "auroc_semantic_entropy": 0.7854,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "phi4-mini",
+    "n_parametric": 2163,
+    "n_confabulated": 2969,
+    "auroc_self_consistency": 0.8252,
+    "auroc_semantic_entropy": 0.8291,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n_parametric": 1380,
+    "n_confabulated": 4016,
+    "auroc_self_consistency": 0.7569,
+    "auroc_semantic_entropy": 0.7717,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "qwen3-14b",
+    "n_parametric": 3189,
+    "n_confabulated": 2299,
+    "auroc_self_consistency": 0.7711,
+    "auroc_semantic_entropy": 0.8032,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "qwen3-32b",
+    "n_parametric": 3379,
+    "n_confabulated": 2169,
+    "auroc_self_consistency": 0.7597,
+    "auroc_semantic_entropy": 0.7763,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "qwen3-4b",
+    "n_parametric": 2017,
+    "n_confabulated": 3364,
+    "auroc_self_consistency": 0.7802,
+    "auroc_semantic_entropy": 0.7979,
+    "n_missing_raw": 0
+  },
+  {
+    "model": "qwen3-8b",
+    "n_parametric": 2674,
+    "n_confabulated": 2730,
+    "auroc_self_consistency": 0.7996,
+    "auroc_semantic_entropy": 0.8135,
+    "n_missing_raw": 0
+  }
+]

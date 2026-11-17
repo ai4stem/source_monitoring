@@ -1,0 +1,9 @@
+{
+  "model": "gemma3-12b",
+  "size_b": 12.0,
+  "n_conflict": 101,
+  "n_control": 0,
+  "verbatim_override": 0.8317,
+  "followed_parametric": 0.1584,
+  "over_deference": null
+}

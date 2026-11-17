@@ -1,0 +1,7 @@
+{
+  "path": "data/frozen/dataset.jsonl",
+  "seed": 0,
+  "sha256": "416afad1395368da7227d60e5879dde41bb2d54f5a9cb912824476b286c94b16",
+  "n_instances": 122,
+  "builder_version": "1.0"
+}

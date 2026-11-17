@@ -1,0 +1,132 @@
+{
+  "llama32-1b": {
+    "sc_raw_strict": 0.7573,
+    "sc_raw_loose": 0.746,
+    "sc_canon_strict": 0.7542,
+    "sc_canon_loose": 0.741,
+    "se_raw_strict": 0.7578,
+    "se_raw_loose": 0.7489,
+    "se_canon_strict": 0.755,
+    "se_canon_loose": 0.7448
+  },
+  "qwen3-1.7b": {
+    "sc_raw_strict": 0.7853,
+    "sc_raw_loose": 0.8222,
+    "sc_canon_strict": 0.7923,
+    "sc_canon_loose": 0.8192,
+    "se_raw_strict": 0.7873,
+    "se_raw_loose": 0.8266,
+    "se_canon_strict": 0.7969,
+    "se_canon_loose": 0.8258
+  },
+  "llama32-3b": {
+    "sc_raw_strict": 0.77,
+    "sc_raw_loose": 0.7533,
+    "sc_canon_strict": 0.765,
+    "sc_canon_loose": 0.7592,
+    "se_raw_strict": 0.7729,
+    "se_raw_loose": 0.7597,
+    "se_canon_strict": 0.7681,
+    "se_canon_loose": 0.7658
+  },
+  "phi4-mini": {
+    "sc_raw_strict": 0.822,
+    "sc_raw_loose": 0.8794,
+    "sc_canon_strict": 0.8178,
+    "sc_canon_loose": 0.8738,
+    "se_raw_strict": 0.8239,
+    "se_raw_loose": 0.8817,
+    "se_canon_strict": 0.8198,
+    "se_canon_loose": 0.8766
+  },
+  "phi3-mini-legacy": {
+    "sc_raw_strict": 0.8239,
+    "sc_raw_loose": 0.8803,
+    "sc_canon_strict": 0.8203,
+    "sc_canon_loose": 0.876,
+    "se_raw_strict": 0.8248,
+    "se_raw_loose": 0.8826,
+    "se_canon_strict": 0.8213,
+    "se_canon_loose": 0.8789
+  },
+  "qwen3-4b": {
+    "sc_raw_strict": 0.8107,
+    "sc_raw_loose": 0.8489,
+    "sc_canon_strict": 0.825,
+    "sc_canon_loose": 0.8497,
+    "se_raw_strict": 0.8144,
+    "se_raw_loose": 0.8529,
+    "se_canon_strict": 0.8294,
+    "se_canon_loose": 0.8547
+  },
+  "mistral-7b": {
+    "sc_raw_strict": 0.7029,
+    "sc_raw_loose": 0.795,
+    "sc_canon_strict": 0.6991,
+    "sc_canon_loose": 0.7936,
+    "se_raw_strict": 0.7032,
+    "se_raw_loose": 0.7998,
+    "se_canon_strict": 0.6994,
+    "se_canon_loose": 0.7982
+  },
+  "qwen3-8b": {
+    "sc_raw_strict": 0.8226,
+    "sc_raw_loose": 0.8576,
+    "sc_canon_strict": 0.8331,
+    "sc_canon_loose": 0.8544,
+    "se_raw_strict": 0.8252,
+    "se_raw_loose": 0.8599,
+    "se_canon_strict": 0.8356,
+    "se_canon_loose": 0.8575
+  },
+  "llama3-8b-legacy": {
+    "sc_raw_strict": 0.81,
+    "sc_raw_loose": 0.849,
+    "sc_canon_strict": 0.8065,
+    "sc_canon_loose": 0.8472,
+    "se_raw_strict": 0.8131,
+    "se_raw_loose": 0.8522,
+    "se_canon_strict": 0.8097,
+    "se_canon_loose": 0.85
+  },
+  "gemma3-12b": {
+    "sc_raw_strict": 0.7824,
+    "sc_raw_loose": 0.8458,
+    "sc_canon_strict": 0.8147,
+    "sc_canon_loose": 0.8422,
+    "se_raw_strict": 0.788,
+    "se_raw_loose": 0.8496,
+    "se_canon_strict": 0.8178,
+    "se_canon_loose": 0.8462
+  },
+  "mistral-nemo-12b": {
+    "sc_raw_strict": 0.8085,
+    "sc_raw_loose": 0.8642,
+    "sc_canon_strict": 0.8068,
+    "sc_canon_loose": 0.8514,
+    "se_raw_strict": 0.8104,
+    "se_raw_loose": 0.8673,
+    "se_canon_strict": 0.8071,
+    "se_canon_loose": 0.8548
+  },
+  "qwen3-14b": {
+    "sc_raw_strict": 0.8306,
+    "sc_raw_loose": 0.8642,
+    "sc_canon_strict": 0.8451,
+    "sc_canon_loose": 0.8604,
+    "se_raw_strict": 0.8327,
+    "se_raw_loose": 0.8661,
+    "se_canon_strict": 0.8475,
+    "se_canon_loose": 0.8636
+  },
+  "qwen3-32b": {
+    "sc_raw_strict": 0.8334,
+    "sc_raw_loose": 0.8771,
+    "sc_canon_strict": 0.8498,
+    "sc_canon_loose": 0.8734,
+    "se_raw_strict": 0.8369,
+    "se_raw_loose": 0.8793,
+    "se_canon_strict": 0.8536,
+    "se_canon_loose": 0.8769
+  }
+}

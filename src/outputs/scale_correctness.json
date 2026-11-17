@@ -1,0 +1,272 @@
+[
+  {
+    "measure": "caliper-matched correctness",
+    "n": 13,
+    "mean": 0.7001,
+    "slope": 0.00733,
+    "ci": [
+      -0.00335,
+      0.01802
+    ],
+    "p": 0.1591,
+    "r2": 0.1718,
+    "spearman_rho": 0.3393,
+    "spearman_p": 0.2567,
+    "tost_bound": 0.02,
+    "tost_p": 0.0121,
+    "family_slopes": {
+      "llama": -0.0085,
+      "qwen3": 0.0168,
+      "phi": null,
+      "mistral": null,
+      "gemma": null
+    },
+    "per_model": [
+      {
+        "model": "llama32-1b",
+        "size": 1.0,
+        "auroc": 0.7118
+      },
+      {
+        "model": "qwen3-1.7b",
+        "size": 1.7,
+        "auroc": 0.6615
+      },
+      {
+        "model": "llama32-3b",
+        "size": 3.0,
+        "auroc": 0.7022
+      },
+      {
+        "model": "phi4-mini",
+        "size": 3.8,
+        "auroc": 0.674
+      },
+      {
+        "model": "phi3-mini-legacy",
+        "size": 3.8,
+        "auroc": 0.7121
+      },
+      {
+        "model": "qwen3-4b",
+        "size": 4.0,
+        "auroc": 0.673
+      },
+      {
+        "model": "mistral-7b",
+        "size": 7.0,
+        "auroc": 0.7363
+      },
+      {
+        "model": "qwen3-8b",
+        "size": 8.0,
+        "auroc": 0.6925
+      },
+      {
+        "model": "llama3-8b-legacy",
+        "size": 8.0,
+        "auroc": 0.6862
+      },
+      {
+        "model": "gemma3-12b",
+        "size": 12.0,
+        "auroc": 0.7289
+      },
+      {
+        "model": "mistral-nemo-12b",
+        "size": 12.0,
+        "auroc": 0.6867
+      },
+      {
+        "model": "qwen3-14b",
+        "size": 14.0,
+        "auroc": 0.703
+      },
+      {
+        "model": "qwen3-32b",
+        "size": 32.0,
+        "auroc": 0.733
+      }
+    ]
+  },
+  {
+    "measure": "low-stability correctness",
+    "n": 13,
+    "mean": 0.7533,
+    "slope": 0.00719,
+    "ci": [
+      -0.00189,
+      0.01626
+    ],
+    "p": 0.1091,
+    "r2": 0.2165,
+    "spearman_rho": 0.4607,
+    "spearman_p": 0.1131,
+    "tost_bound": 0.02,
+    "tost_p": 0.005,
+    "family_slopes": {
+      "llama": 0.0002,
+      "qwen3": 0.0115,
+      "phi": null,
+      "mistral": null,
+      "gemma": null
+    },
+    "per_model": [
+      {
+        "model": "llama32-1b",
+        "size": 1.0,
+        "auroc": 0.7492
+      },
+      {
+        "model": "qwen3-1.7b",
+        "size": 1.7,
+        "auroc": 0.7307
+      },
+      {
+        "model": "llama32-3b",
+        "size": 3.0,
+        "auroc": 0.7705
+      },
+      {
+        "model": "phi4-mini",
+        "size": 3.8,
+        "auroc": 0.7609
+      },
+      {
+        "model": "phi3-mini-legacy",
+        "size": 3.8,
+        "auroc": 0.7042
+      },
+      {
+        "model": "qwen3-4b",
+        "size": 4.0,
+        "auroc": 0.752
+      },
+      {
+        "model": "mistral-7b",
+        "size": 7.0,
+        "auroc": 0.7439
+      },
+      {
+        "model": "qwen3-8b",
+        "size": 8.0,
+        "auroc": 0.757
+      },
+      {
+        "model": "llama3-8b-legacy",
+        "size": 8.0,
+        "auroc": 0.749
+      },
+      {
+        "model": "gemma3-12b",
+        "size": 12.0,
+        "auroc": 0.7662
+      },
+      {
+        "model": "mistral-nemo-12b",
+        "size": 12.0,
+        "auroc": 0.7481
+      },
+      {
+        "model": "qwen3-14b",
+        "size": 14.0,
+        "auroc": 0.7887
+      },
+      {
+        "model": "qwen3-32b",
+        "size": 32.0,
+        "auroc": 0.7724
+      }
+    ]
+  },
+  {
+    "measure": "high-stability correctness",
+    "n": 13,
+    "mean": 0.7073,
+    "slope": 0.01222,
+    "ci": [
+      -0.00201,
+      0.02645
+    ],
+    "p": 0.0855,
+    "r2": 0.245,
+    "spearman_rho": 0.4083,
+    "spearman_p": 0.1661,
+    "tost_bound": 0.02,
+    "tost_p": 0.1269,
+    "family_slopes": {
+      "llama": 0.0101,
+      "qwen3": 0.0166,
+      "phi": null,
+      "mistral": null,
+      "gemma": null
+    },
+    "per_model": [
+      {
+        "model": "llama32-1b",
+        "size": 1.0,
+        "auroc": 0.6828
+      },
+      {
+        "model": "qwen3-1.7b",
+        "size": 1.7,
+        "auroc": 0.6852
+      },
+      {
+        "model": "llama32-3b",
+        "size": 3.0,
+        "auroc": 0.7446
+      },
+      {
+        "model": "phi4-mini",
+        "size": 3.8,
+        "auroc": 0.6674
+      },
+      {
+        "model": "phi3-mini-legacy",
+        "size": 3.8,
+        "auroc": 0.6637
+      },
+      {
+        "model": "qwen3-4b",
+        "size": 4.0,
+        "auroc": 0.6919
+      },
+      {
+        "model": "mistral-7b",
+        "size": 7.0,
+        "auroc": 0.7522
+      },
+      {
+        "model": "qwen3-8b",
+        "size": 8.0,
+        "auroc": 0.7071
+      },
+      {
+        "model": "llama3-8b-legacy",
+        "size": 8.0,
+        "auroc": 0.7114
+      },
+      {
+        "model": "gemma3-12b",
+        "size": 12.0,
+        "auroc": 0.7355
+      },
+      {
+        "model": "mistral-nemo-12b",
+        "size": 12.0,
+        "auroc": 0.6668
+      },
+      {
+        "model": "qwen3-14b",
+        "size": 14.0,
+        "auroc": 0.7373
+      },
+      {
+        "model": "qwen3-32b",
+        "size": 32.0,
+        "auroc": 0.7492
+      }
+    ]
+  }
+]

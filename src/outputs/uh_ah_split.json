@@ -1,0 +1,119 @@
+[
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.6338,
+    "uh_auroc": 0.7888,
+    "n_ah": 521,
+    "n_uh": 508,
+    "n_param": 2971,
+    "model": "gemma3-12b"
+  },
+  {
+    "frac": 0.4,
+    "ah_auroc": 0.6989,
+    "uh_auroc": 0.8201,
+    "n_ah": 362,
+    "n_uh": 599,
+    "n_param": 3039,
+    "model": "llama3-8b-legacy"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7476,
+    "uh_auroc": 0.8,
+    "n_ah": 2489,
+    "n_uh": 1986,
+    "n_param": 1511,
+    "model": "llama32-1b"
+  },
+  {
+    "frac": 0.4,
+    "ah_auroc": 0.79,
+    "uh_auroc": 0.8284,
+    "n_ah": 1730,
+    "n_uh": 1287,
+    "n_param": 2270,
+    "model": "llama32-3b"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7029,
+    "uh_auroc": 0.7417,
+    "n_ah": 943,
+    "n_uh": 906,
+    "n_param": 3057,
+    "model": "mistral-7b"
+  },
+  {
+    "frac": 0.4,
+    "ah_auroc": 0.6887,
+    "uh_auroc": 0.8151,
+    "n_ah": 405,
+    "n_uh": 495,
+    "n_param": 3100,
+    "model": "mistral-nemo-12b"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7503,
+    "uh_auroc": 0.7855,
+    "n_ah": 1615,
+    "n_uh": 1332,
+    "n_param": 2385,
+    "model": "phi3-mini-legacy"
+  },
+  {
+    "frac": 0.4,
+    "ah_auroc": 0.787,
+    "uh_auroc": 0.8472,
+    "n_ah": 2032,
+    "n_uh": 1416,
+    "n_param": 1968,
+    "model": "phi4-mini"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7477,
+    "uh_auroc": 0.7877,
+    "n_ah": 2808,
+    "n_uh": 1947,
+    "n_param": 1192,
+    "model": "qwen3-1.7b"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7437,
+    "uh_auroc": 0.8718,
+    "n_ah": 552,
+    "n_uh": 637,
+    "n_param": 2811,
+    "model": "qwen3-14b"
+  },
+  {
+    "frac": 0.8,
+    "ah_auroc": 0.7243,
+    "uh_auroc": 0.8439,
+    "n_ah": 369,
+    "n_uh": 652,
+    "n_param": 2979,
+    "model": "qwen3-32b"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7139,
+    "uh_auroc": 0.8384,
+    "n_ah": 982,
+    "n_uh": 1223,
+    "n_param": 1795,
+    "model": "qwen3-4b"
+  },
+  {
+    "frac": 0.6,
+    "ah_auroc": 0.7404,
+    "uh_auroc": 0.8344,
+    "n_ah": 768,
+    "n_uh": 858,
+    "n_param": 2374,
+    "model": "qwen3-8b"
+  }
+]

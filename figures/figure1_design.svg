@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" width="180mm" height="93.0mm" font-family="Arial, Helvetica, 'Liberation Sans', sans-serif">
+<rect width="720" height="372" fill="#ffffff"/>
+<text x="1" y="13" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="start">a</text>
+<text x="17" y="13" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Stability probing</text>
+<rect x="1" y="26" width="236" height="40" rx="3" fill="#f6f6f4" stroke="#c9c9c6" stroke-width="0.75"/>
+<text x="11" y="42" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Factual question, closed book</text>
+<text x="11" y="56" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">TriviaQA and PopQA; 6,000 facts per model</text>
+<text x="1" y="86" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">6 prompt variants, one sampled answer each</text>
+<text x="1" y="98" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">temperature 0.7; bar length = answer length, fill = answer</text>
+<text x="5" y="119.2" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">P1</text>
+<rect x="27" y="112" width="62" height="8" rx="4" fill="#4a5568" stroke="#4a5568" stroke-width="0.9"/>
+<text x="5" y="134.2" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">P2</text>
+<rect x="27" y="127" width="24" height="8" rx="4" fill="#4a5568" stroke="#4a5568" stroke-width="0.9"/>
+<text x="5" y="149.2" font-size="8.5" font-weight="400" fill="#8c8c8c" text-anchor="start">P3</text>
+<rect x="27" y="142" width="24" height="8" rx="4" fill="#ffffff" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2 2"/>
+<text x="5" y="164.2" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">P4</text>
+<rect x="27" y="157" width="62" height="8" rx="4" fill="#4a5568" stroke="#4a5568" stroke-width="0.9"/>
+<text x="5" y="179.2" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">P5</text>
+<rect x="27" y="172" width="24" height="8" rx="4" fill="#ffffff" stroke="#4a5568" stroke-width="0.9"/>
+<text x="5" y="194.2" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">P6</text>
+<rect x="27" y="187" width="24" height="8" rx="4" fill="#4a5568" stroke="#4a5568" stroke-width="0.9"/>
+<text x="57" y="149" font-size="7.6" font-weight="400" fill="#8c8c8c" text-anchor="start" font-style="italic">held out</text>
+<path d="M97,111 h5 v85 h-5" fill="none" stroke="#8c8c8c" stroke-width="0.75"/>
+<line x1="102" y1="153.5" x2="109" y2="153.5" stroke="#8c8c8c" stroke-width="0.75"/>
+<text x="113" y="114.0" font-size="8.3" font-weight="400" fill="#555555" text-anchor="start">Leave one prompt out: share</text>
+<text x="113" y="124.6" font-size="8.3" font-weight="400" fill="#555555" text-anchor="start">of the other five answers that</text>
+<text x="113" y="135.2" font-size="8.3" font-weight="400" fill="#555555" text-anchor="start">give their most common answer</text>
+<text x="113" y="145.8" font-size="8.3" font-weight="400" fill="#555555" text-anchor="start">(compared by meaning, not by</text>
+<text x="113" y="156.4" font-size="8.3" font-weight="400" fill="#555555" text-anchor="start">wording or length), averaged</text>
+<text x="113" y="167.0" font-size="8.3" font-weight="400" fill="#555555" text-anchor="start">over the six folds</text>
+<text x="113" y="188" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">= support, s ∈ [0, 1]</text>
+<text x="1" y="224" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Three quantities per fact</text>
+<rect x="1" y="236" width="236" height="36" rx="3" fill="#ffffff" stroke="#c9c9c6" stroke-width="0.75"/>
+<circle cx="18" cy="254" r="9.5" fill="#f6f6f4" stroke="#c9c9c6" stroke-width="0.75"/>
+<text x="18" y="257.5" font-size="10" font-weight="700" fill="#1a1a1a" text-anchor="middle" font-style="italic">s</text>
+<text x="35" y="249" font-size="9" font-weight="700" fill="#1a1a1a" text-anchor="start">Stability (support)</text>
+<text x="35" y="259" font-size="8" font-weight="400" fill="#555555" text-anchor="start">leave-one-prompt-out agreement of answers;</text>
+<text x="35" y="268" font-size="8" font-weight="400" fill="#555555" text-anchor="start">computed without reference to correctness</text>
+<rect x="1" y="278" width="236" height="36" rx="3" fill="#ffffff" stroke="#c9c9c6" stroke-width="0.75"/>
+<circle cx="18" cy="296" r="9.5" fill="#f6f6f4" stroke="#c9c9c6" stroke-width="0.75"/>
+<text x="18" y="299.5" font-size="10" font-weight="700" fill="#1a1a1a" text-anchor="middle" font-style="italic">c</text>
+<text x="35" y="291" font-size="9" font-weight="700" fill="#1a1a1a" text-anchor="start">Correctness</text>
+<text x="35" y="301" font-size="8" font-weight="400" fill="#555555" text-anchor="start">at least half of the six answers</text>
+<text x="35" y="310" font-size="8" font-weight="400" fill="#555555" text-anchor="start">contain the reference answer</text>
+<rect x="1" y="320" width="236" height="36" rx="3" fill="#ffffff" stroke="#c9c9c6" stroke-width="0.75"/>
+<circle cx="18" cy="338" r="9.5" fill="#f6f6f4" stroke="#c9c9c6" stroke-width="0.75"/>
+<text x="18" y="341.5" font-size="10" font-weight="700" fill="#1a1a1a" text-anchor="middle" font-style="italic">h</text>
+<text x="35" y="333" font-size="9" font-weight="700" fill="#1a1a1a" text-anchor="start">Hidden state</text>
+<text x="35" y="343" font-size="8" font-weight="400" fill="#555555" text-anchor="start">last token of a separate greedy answer (≤ 24</text>
+<text x="35" y="352" font-size="8" font-weight="400" fill="#555555" text-anchor="start">tokens); four depths, 40–100% of layers</text>
+<path d="M243,150 h10 m-4,-4 l4,4 l-4,4" fill="none" stroke="#8c8c8c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="262" y="13" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="start">b</text>
+<text x="278" y="13" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Correctness × stability design</text>
+<rect x="288" y="44" width="92" height="84" rx="3" fill="#d6e4ef" stroke="none" stroke-width="0.75"/>
+<rect x="286.5" y="42.5" width="95" height="87" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="296" y="62.0" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Correct,</text>
+<text x="296" y="73.5" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">unstable</text>
+<text x="296" y="94.0" font-size="7.6" font-weight="400" fill="#555555" text-anchor="start">right answer that</text>
+<text x="296" y="103.5" font-size="7.6" font-weight="400" fill="#555555" text-anchor="start">varies with wording</text>
+<rect x="384" y="44" width="92" height="84" rx="3" fill="#2f6f9f" stroke="none" stroke-width="0.75"/>
+<text x="392" y="62.0" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="start">Correct,</text>
+<text x="392" y="73.5" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="start">stable</text>
+<text x="392" y="94.0" font-size="7.6" font-weight="400" fill="#ffffff" text-anchor="start">reliable parametric</text>
+<text x="392" y="103.5" font-size="7.6" font-weight="400" fill="#ffffff" text-anchor="start">knowledge</text>
+<rect x="288" y="132" width="92" height="84" rx="3" fill="#f3dcd5" stroke="none" stroke-width="0.75"/>
+<text x="296" y="150.0" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Incorrect,</text>
+<text x="296" y="161.5" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">unstable</text>
+<text x="296" y="182.0" font-size="7.6" font-weight="400" fill="#555555" text-anchor="start">wrong answer that</text>
+<text x="296" y="191.5" font-size="7.6" font-weight="400" fill="#555555" text-anchor="start">varies with wording</text>
+<rect x="384" y="132" width="92" height="84" rx="3" fill="#c1553b" stroke="none" stroke-width="0.75"/>
+<rect x="382.5" y="130.5" width="95" height="87" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="392" y="150.0" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="start">Incorrect,</text>
+<text x="392" y="161.5" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="start">stable</text>
+<text x="392" y="182.0" font-size="7.6" font-weight="400" fill="#ffffff" text-anchor="start">stably incorrect: the</text>
+<text x="392" y="191.5" font-size="7.6" font-weight="400" fill="#ffffff" text-anchor="start">same error throughout</text>
+<path d="M288,225 H476 m-4,-3.5 l4,3.5 l-4,3.5" fill="none" stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="334.0" y="238" font-size="8.5" font-weight="400" fill="#555555" text-anchor="middle">low</text>
+<text x="430.0" y="238" font-size="8.5" font-weight="400" fill="#555555" text-anchor="middle">high</text>
+<text x="382" y="251" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="middle">Stability (support, s)</text>
+<text x="283" y="86.0" font-size="8.5" font-weight="400" fill="#555555" text-anchor="middle" transform="rotate(-90 283 86.0)">correct</text>
+<text x="283" y="174.0" font-size="8.5" font-weight="400" fill="#555555" text-anchor="middle" transform="rotate(-90 283 174.0)">incorrect</text>
+<text x="270" y="130" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 270 130)">Correctness (c)</text>
+<rect x="262" y="263" width="12" height="9" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="280" y="271" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">Off-diagonal cells separate correctness from</text>
+<text x="280" y="282" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">stability; contrasting only the diagonal cells</text>
+<text x="280" y="293" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">(stable-correct versus unstable-incorrect)</text>
+<text x="280" y="304" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">confounds the two.</text>
+<text x="262" y="324" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">Stably incorrect facts (all six answers agree on</text>
+<text x="262" y="335" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">a wrong answer): 77–386 per model.</text>
+<path d="M485,150 h10 m-4,-4 l4,4 l-4,4" fill="none" stroke="#8c8c8c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="504" y="13" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="start">c</text>
+<text x="520" y="13" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Stability-controlled read-outs</text>
+<text x="504" y="34" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">Linear probe on h, cross-validated AUROC</text>
+<text x="504" y="45" font-size="8.5" font-weight="400" fill="#555555" text-anchor="start">for correct versus incorrect</text>
+<rect x="504" y="56" width="215" height="96" rx="3" fill="#ffffff" stroke="#c9c9c6" stroke-width="0.75"/>
+<rect x="504" y="160" width="215" height="96" rx="3" fill="#ffffff" stroke="#c9c9c6" stroke-width="0.75"/>
+<rect x="504" y="264" width="215" height="96" rx="3" fill="#ffffff" stroke="#c9c9c6" stroke-width="0.75"/>
+<text x="514" y="71" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Stability-matched pairs</text>
+<text x="709" y="71" font-size="8.5" font-weight="400" fill="#8c8c8c" text-anchor="end">Fig. 2a</text>
+<line x1="529.22" y1="85" x2="526.72" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="529.22" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="526.72" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<line x1="555.4" y1="85" x2="557.4" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="555.4" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="557.4" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<line x1="579.71" y1="85" x2="578.21" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="579.71" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="578.21" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<line x1="605.89" y1="85" x2="608.39" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="605.89" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="608.39" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<line x1="630.2" y1="85" x2="628.2" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="630.2" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="628.2" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<line x1="656.38" y1="85" x2="657.88" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="656.38" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="657.88" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<line x1="686.3" y1="85" x2="685.3" y2="101" stroke="#8c8c8c" stroke-width="0.6"/>
+<circle cx="686.3" cy="85" r="3.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.6"/>
+<circle cx="685.3" cy="101" r="3.6" fill="#c1553b" stroke="#ffffff" stroke-width="0.6"/>
+<path d="M518,111 H705 m-4,-3 l4,3 l-4,3" fill="none" stroke="#1a1a1a" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="518" y="122" font-size="8" font-weight="400" fill="#555555" text-anchor="start">support, s</text>
+<text x="705" y="122" font-size="8" font-weight="400" fill="#555555" text-anchor="end">pairs within 0.05</text>
+<text x="514" y="135.0" font-size="7.8" font-weight="400" fill="#555555" text-anchor="start">Each incorrect answer paired 1:1 with a correct one</text>
+<text x="514" y="144.5" font-size="7.8" font-weight="400" fill="#555555" text-anchor="start">of equal support, from the same dataset.</text>
+<text x="514" y="175" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Stability regimes</text>
+<text x="709" y="175" font-size="8.5" font-weight="400" fill="#8c8c8c" text-anchor="end">Fig. 2b</text>
+<rect x="518.0" y="185" width="90.5" height="24" rx="2" fill="#f6f6f4" stroke="#1a1a1a" stroke-width="0.9"/>
+<circle cx="543.25" cy="197" r="3.1" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="567.25" cy="197" r="3.1" fill="#c1553b" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="551.25" cy="197" r="3.1" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="575.25" cy="197" r="3.1" fill="#c1553b" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="559.25" cy="197" r="3.1" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="583.25" cy="197" r="3.1" fill="#c1553b" stroke="#ffffff" stroke-width="0.5"/>
+<text x="563.25" y="220" font-size="8" font-weight="400" fill="#555555" text-anchor="middle">answers disagree</text>
+<rect x="614.5" y="185" width="90.5" height="24" rx="2" fill="#f6f6f4" stroke="#1a1a1a" stroke-width="0.9"/>
+<circle cx="639.75" cy="197" r="3.1" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="663.75" cy="197" r="3.1" fill="#c1553b" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="647.75" cy="197" r="3.1" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="671.75" cy="197" r="3.1" fill="#c1553b" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="655.75" cy="197" r="3.1" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.5"/>
+<circle cx="679.75" cy="197" r="3.1" fill="#c1553b" stroke="#ffffff" stroke-width="0.5"/>
+<text x="659.75" y="220" font-size="8" font-weight="400" fill="#555555" text-anchor="middle">all six answers agree</text>
+<text x="514" y="236.0" font-size="7.8" font-weight="400" fill="#555555" text-anchor="start">Matched pairs among unanimous facts compared</text>
+<text x="514" y="245.5" font-size="7.8" font-weight="400" fill="#555555" text-anchor="start">with matched pairs among all other facts.</text>
+<text x="514" y="279" font-size="9.5" font-weight="700" fill="#1a1a1a" text-anchor="start">Scale</text>
+<text x="709" y="279" font-size="8.5" font-weight="400" fill="#8c8c8c" text-anchor="end">Fig. 2c–e</text>
+<circle cx="525.6" cy="303" r="1.6" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="532.3569184329538" cy="303" r="2.5569184329537213" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="541.0950399918089" cy="303" r="3.581203125901445" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="551.2837423909057" cy="303" r="4.007499273195279" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="561.8987409372962" cy="303" r="4.007499273195279" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="572.6062402104915" cy="303" r="4.1" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="584.4154338630635" cy="303" r="5.109193652572005" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="597.4746275156356" cy="303" r="5.35" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="610.7746275156356" cy="303" r="5.35" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="624.8058306415371" cy="303" r="6.081203125901444" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="639.56823689334" cy="303" r="6.081203125901444" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="654.6086336718134" cy="303" r="6.359193652572005" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<circle cx="671.4178273243855" cy="303" r="7.85" fill="#ffffff" stroke="#1a1a1a" stroke-width="0.8"/>
+<text x="518" y="324" font-size="8" font-weight="400" fill="#555555" text-anchor="start">1B</text>
+<text x="705" y="324" font-size="8" font-weight="400" fill="#555555" text-anchor="end">32B parameters</text>
+<text x="514" y="340.0" font-size="7.8" font-weight="400" fill="#555555" text-anchor="start">13 open-weight models from 5 families; each AUROC</text>
+<text x="514" y="349.5" font-size="7.8" font-weight="400" fill="#555555" text-anchor="start">regressed on log₂ parameter count.</text>
+</svg>

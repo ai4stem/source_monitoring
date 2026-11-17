@@ -1,0 +1,119 @@
+[
+  {
+    "model": "llama32-1b",
+    "size_b": 1.0,
+    "n_conflict": 95,
+    "n_control": 0,
+    "verbatim_override": 0.1895,
+    "followed_parametric": 0.0316,
+    "over_deference": null
+  },
+  {
+    "model": "qwen3-1.7b",
+    "size_b": 1.7,
+    "n_conflict": 101,
+    "n_control": 0,
+    "verbatim_override": 0.802,
+    "followed_parametric": 0.0396,
+    "over_deference": null
+  },
+  {
+    "model": "llama32-3b",
+    "size_b": 3.0,
+    "n_conflict": 101,
+    "n_control": 0,
+    "verbatim_override": 0.5545,
+    "followed_parametric": 0.1386,
+    "over_deference": null
+  },
+  {
+    "model": "phi4-mini",
+    "size_b": 3.8,
+    "n_conflict": 114,
+    "n_control": 0,
+    "verbatim_override": 0.5877,
+    "followed_parametric": 0.3421,
+    "over_deference": null
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "size_b": 3.8,
+    "n_conflict": 94,
+    "n_control": 0,
+    "verbatim_override": 0.3617,
+    "followed_parametric": 0.3298,
+    "over_deference": null
+  },
+  {
+    "model": "qwen3-4b",
+    "size_b": 4.0,
+    "n_conflict": 105,
+    "n_control": 0,
+    "verbatim_override": 0.3524,
+    "followed_parametric": 0.3524,
+    "over_deference": null
+  },
+  {
+    "model": "mistral-7b",
+    "size_b": 7.0,
+    "n_conflict": 97,
+    "n_control": 0,
+    "verbatim_override": 0.5567,
+    "followed_parametric": 0.4948,
+    "over_deference": null
+  },
+  {
+    "model": "qwen3-8b",
+    "size_b": 8.0,
+    "n_conflict": 98,
+    "n_control": 0,
+    "verbatim_override": 0.5816,
+    "followed_parametric": 0.3265,
+    "over_deference": null
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "size_b": 8.0,
+    "n_conflict": 94,
+    "n_control": 0,
+    "verbatim_override": 0.6809,
+    "followed_parametric": 0.1277,
+    "over_deference": null
+  },
+  {
+    "model": "gemma3-12b",
+    "size_b": 12.0,
+    "n_conflict": 101,
+    "n_control": 0,
+    "verbatim_override": 0.8317,
+    "followed_parametric": 0.1584,
+    "over_deference": null
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "size_b": 12.0,
+    "n_conflict": 98,
+    "n_control": 0,
+    "verbatim_override": 0.3571,
+    "followed_parametric": 0.4184,
+    "over_deference": null
+  },
+  {
+    "model": "qwen3-14b",
+    "size_b": 14.0,
+    "n_conflict": 97,
+    "n_control": 0,
+    "verbatim_override": 0.6082,
+    "followed_parametric": 0.3299,
+    "over_deference": null
+  },
+  {
+    "model": "qwen3-32b",
+    "size_b": 32.0,
+    "n_conflict": 101,
+    "n_control": 0,
+    "verbatim_override": 0.4356,
+    "followed_parametric": 0.4158,
+    "over_deference": null
+  }
+]

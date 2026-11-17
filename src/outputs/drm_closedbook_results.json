@@ -1,0 +1,223 @@
+[
+  {
+    "model": "qwen3-8b",
+    "size_b": 8.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0035,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "gemma3-12b",
+    "size_b": 12.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0017,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "phi4-mini",
+    "size_b": 3.8,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0141,
+      "lure_intrusion": 0.0278,
+      "other_lure_intrusion": 0.9722,
+      "drm_effect": -0.9444
+    },
+    "control_list_present": {
+      "true_recall": 0.9912,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "size_b": 8.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0035,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "size_b": 3.8,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0035,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "qwen3-32b",
+    "size_b": 32.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0035,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "qwen3-1.7b",
+    "size_b": 1.7,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9669,
+      "lure_intrusion": 0.0278,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0278
+    }
+  },
+  {
+    "model": "qwen3-4b",
+    "size_b": 4.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "qwen3-14b",
+    "size_b": 14.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0069,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0278,
+      "drm_effect": -0.0278
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "llama32-1b",
+    "size_b": 1.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0139,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.7968,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "llama32-3b",
+    "size_b": 3.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0017,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9929,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  },
+  {
+    "model": "mistral-7b",
+    "size_b": 7.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9877,
+      "lure_intrusion": 0.0278,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0278
+    }
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "size_b": 12.0,
+    "n_lists": 36,
+    "closedbook": {
+      "true_recall": 0.0,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    },
+    "control_list_present": {
+      "true_recall": 0.9964,
+      "lure_intrusion": 0.0,
+      "other_lure_intrusion": 0.0,
+      "drm_effect": 0.0
+    }
+  }
+]

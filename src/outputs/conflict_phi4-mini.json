@@ -1,0 +1,9 @@
+{
+  "model": "phi4-mini",
+  "size_b": 3.8,
+  "n_conflict": 114,
+  "n_control": 0,
+  "verbatim_override": 0.5877,
+  "followed_parametric": 0.3421,
+  "over_deference": null
+}

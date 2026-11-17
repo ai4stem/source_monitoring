@@ -1,0 +1,80 @@
+[
+  {
+    "model": "gemma3-12b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7543,
+    "auroc_confabulated_nli": 0.7841
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n": 200,
+    "auroc_incorrect_nli": 0.8018,
+    "auroc_confabulated_nli": 0.7974
+  },
+  {
+    "model": "llama32-1b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.732,
+    "auroc_confabulated_nli": 0.7669
+  },
+  {
+    "model": "llama32-3b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7666,
+    "auroc_confabulated_nli": 0.7684
+  },
+  {
+    "model": "mistral-7b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.6564,
+    "auroc_confabulated_nli": 0.693
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7463,
+    "auroc_confabulated_nli": 0.7892
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n": 200,
+    "auroc_incorrect_nli": 0.8042,
+    "auroc_confabulated_nli": 0.8305
+  },
+  {
+    "model": "phi4-mini",
+    "n": 200,
+    "auroc_incorrect_nli": 0.8073,
+    "auroc_confabulated_nli": 0.8762
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7545,
+    "auroc_confabulated_nli": 0.8021
+  },
+  {
+    "model": "qwen3-14b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7875,
+    "auroc_confabulated_nli": 0.8116
+  },
+  {
+    "model": "qwen3-32b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7971,
+    "auroc_confabulated_nli": 0.8089
+  },
+  {
+    "model": "qwen3-4b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.8046,
+    "auroc_confabulated_nli": 0.8527
+  },
+  {
+    "model": "qwen3-8b",
+    "n": 200,
+    "auroc_incorrect_nli": 0.7556,
+    "auroc_confabulated_nli": 0.7936
+  }
+]

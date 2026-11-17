@@ -1,0 +1,9 @@
+{
+  "model": "llama32-1b",
+  "size_b": 1.0,
+  "n_conflict": 95,
+  "n_control": 0,
+  "verbatim_override": 0.1895,
+  "followed_parametric": 0.0316,
+  "over_deference": null
+}

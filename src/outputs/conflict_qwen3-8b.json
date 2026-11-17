@@ -1,0 +1,9 @@
+{
+  "model": "qwen3-8b",
+  "size_b": 8.0,
+  "n_conflict": 98,
+  "n_control": 0,
+  "verbatim_override": 0.5816,
+  "followed_parametric": 0.3265,
+  "over_deference": null
+}

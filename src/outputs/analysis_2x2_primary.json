@@ -1,0 +1,1848 @@
+[
+  {
+    "model": "gemma3-12b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7791,
+      "n_per_class": 2462
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1139,
+        "truth_AUROC": 0.6263,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5005
+      },
+      "matched_trivia": {
+        "n_pairs": 759,
+        "truth_AUROC": 0.639,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4985
+      },
+      "matched_popqa": {
+        "n_pairs": 380,
+        "truth_AUROC": 0.6881,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.504
+      },
+      "matched_rest": {
+        "n_pairs": 753,
+        "truth_AUROC": 0.6235,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5028
+      },
+      "unanimous": {
+        "n_pairs": 386,
+        "truth_AUROC": 0.6854,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6263,
+          0.6218,
+          0.6323,
+          0.606,
+          0.6226
+        ],
+        "mean": 0.6218,
+        "sd": 0.0098
+      },
+      "nested": 0.6211
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 845,
+        "truth_AUROC": 0.584,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4997
+      },
+      "matched_trivia": {
+        "n_pairs": 569,
+        "truth_AUROC": 0.5623,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.496
+      },
+      "matched_popqa": {
+        "n_pairs": 276,
+        "truth_AUROC": 0.6396,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055
+      },
+      "matched_rest": {
+        "n_pairs": 527,
+        "truth_AUROC": 0.562,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4995
+      },
+      "unanimous": {
+        "n_pairs": 318,
+        "truth_AUROC": 0.6699,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1435,
+        "truth_AUROC": 0.6738,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5019
+      },
+      "matched_trivia": {
+        "n_pairs": 968,
+        "truth_AUROC": 0.6841,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5014
+      },
+      "matched_popqa": {
+        "n_pairs": 467,
+        "truth_AUROC": 0.7647,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5035
+      },
+      "matched_rest": {
+        "n_pairs": 1435,
+        "truth_AUROC": 0.6735,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5019
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7504,
+      "n_per_class": 2230
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1220,
+        "truth_AUROC": 0.6086,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5023
+      },
+      "matched_trivia": {
+        "n_pairs": 760,
+        "truth_AUROC": 0.6069,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.502
+      },
+      "matched_popqa": {
+        "n_pairs": 460,
+        "truth_AUROC": 0.6368,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5026
+      },
+      "matched_rest": {
+        "n_pairs": 972,
+        "truth_AUROC": 0.6143,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.504
+      },
+      "unanimous": {
+        "n_pairs": 248,
+        "truth_AUROC": 0.6729,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6086,
+          0.6112,
+          0.6112,
+          0.6153,
+          0.6082
+        ],
+        "mean": 0.6109,
+        "sd": 0.0028
+      },
+      "nested": 0.5984
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 788,
+        "truth_AUROC": 0.5522,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5021
+      },
+      "matched_trivia": {
+        "n_pairs": 459,
+        "truth_AUROC": 0.5693,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4998
+      },
+      "matched_popqa": {
+        "n_pairs": 329,
+        "truth_AUROC": 0.5744,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5046
+      },
+      "matched_rest": {
+        "n_pairs": 593,
+        "truth_AUROC": 0.53,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009
+      },
+      "unanimous": {
+        "n_pairs": 195,
+        "truth_AUROC": 0.6765,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1408,
+        "truth_AUROC": 0.6486,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009
+      },
+      "matched_trivia": {
+        "n_pairs": 907,
+        "truth_AUROC": 0.6276,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001
+      },
+      "matched_popqa": {
+        "n_pairs": 501,
+        "truth_AUROC": 0.7131,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5024
+      },
+      "matched_rest": {
+        "n_pairs": 1408,
+        "truth_AUROC": 0.6486,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "llama32-1b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7467,
+      "n_per_class": 1991
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1207,
+        "truth_AUROC": 0.6023,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5007
+      },
+      "matched_trivia": {
+        "n_pairs": 1007,
+        "truth_AUROC": 0.5894,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002
+      },
+      "matched_popqa": {
+        "n_pairs": 200,
+        "truth_AUROC": 0.6902,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5026
+      },
+      "matched_rest": {
+        "n_pairs": 1130,
+        "truth_AUROC": 0.6103,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002
+      },
+      "unanimous": {
+        "n_pairs": 77,
+        "truth_AUROC": 0.6208,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6023,
+          0.6049,
+          0.6079,
+          0.6165,
+          0.5889
+        ],
+        "mean": 0.6041,
+        "sd": 0.01
+      },
+      "nested": 0.5975
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 591,
+        "truth_AUROC": 0.5797,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4874
+      },
+      "matched_trivia": {
+        "n_pairs": 454,
+        "truth_AUROC": 0.5257,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.478
+      },
+      "matched_popqa": {
+        "n_pairs": 137,
+        "truth_AUROC": 0.6519,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5109
+      },
+      "matched_rest": {
+        "n_pairs": 523,
+        "truth_AUROC": 0.5744,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4836
+      },
+      "unanimous": {
+        "n_pairs": 68,
+        "truth_AUROC": 0.6633,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1507,
+        "truth_AUROC": 0.6508,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5007
+      },
+      "matched_trivia": {
+        "n_pairs": 1282,
+        "truth_AUROC": 0.6508,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5003
+      },
+      "matched_popqa": {
+        "n_pairs": 225,
+        "truth_AUROC": 0.7481,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5046
+      },
+      "matched_rest": {
+        "n_pairs": 1507,
+        "truth_AUROC": 0.6494,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5008
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "llama32-3b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7772,
+      "n_per_class": 2855
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1109,
+        "truth_AUROC": 0.6137,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5048
+      },
+      "matched_trivia": {
+        "n_pairs": 834,
+        "truth_AUROC": 0.6202,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5052
+      },
+      "matched_popqa": {
+        "n_pairs": 275,
+        "truth_AUROC": 0.6947,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5035
+      },
+      "matched_rest": {
+        "n_pairs": 985,
+        "truth_AUROC": 0.6269,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5059
+      },
+      "unanimous": {
+        "n_pairs": 124,
+        "truth_AUROC": 0.6252,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6137,
+          0.6109,
+          0.6104,
+          0.6011,
+          0.6098
+        ],
+        "mean": 0.6092,
+        "sd": 0.0048
+      },
+      "nested": 0.5903
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 688,
+        "truth_AUROC": 0.5714,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055
+      },
+      "matched_trivia": {
+        "n_pairs": 505,
+        "truth_AUROC": 0.5591,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5049
+      },
+      "matched_popqa": {
+        "n_pairs": 183,
+        "truth_AUROC": 0.6306,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5057
+      },
+      "matched_rest": {
+        "n_pairs": 593,
+        "truth_AUROC": 0.5832,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5067
+      },
+      "unanimous": {
+        "n_pairs": 95,
+        "truth_AUROC": 0.6934,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1483,
+        "truth_AUROC": 0.697,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5013
+      },
+      "matched_trivia": {
+        "n_pairs": 1152,
+        "truth_AUROC": 0.699,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.501
+      },
+      "matched_popqa": {
+        "n_pairs": 331,
+        "truth_AUROC": 0.7877,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5023
+      },
+      "matched_rest": {
+        "n_pairs": 1483,
+        "truth_AUROC": 0.6964,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5014
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "mistral-7b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7522,
+      "n_per_class": 2241
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1383,
+        "truth_AUROC": 0.6312,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4999
+      },
+      "matched_trivia": {
+        "n_pairs": 904,
+        "truth_AUROC": 0.6339,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001
+      },
+      "matched_popqa": {
+        "n_pairs": 479,
+        "truth_AUROC": 0.6933,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4997
+      },
+      "matched_rest": {
+        "n_pairs": 1168,
+        "truth_AUROC": 0.6456,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "n_pairs": 215,
+        "truth_AUROC": 0.5677,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6312,
+          0.6284,
+          0.6435,
+          0.6421,
+          0.6271
+        ],
+        "mean": 0.6345,
+        "sd": 0.0078
+      },
+      "nested": 0.6254
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 498,
+        "truth_AUROC": 0.6037,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4968
+      },
+      "matched_trivia": {
+        "n_pairs": 292,
+        "truth_AUROC": 0.5769,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4956
+      },
+      "matched_popqa": {
+        "n_pairs": 206,
+        "truth_AUROC": 0.6896,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4985
+      },
+      "matched_rest": {
+        "n_pairs": 325,
+        "truth_AUROC": 0.546,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4932
+      },
+      "unanimous": {
+        "n_pairs": 173,
+        "truth_AUROC": 0.5661,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1535,
+        "truth_AUROC": 0.686,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "matched_trivia": {
+        "n_pairs": 905,
+        "truth_AUROC": 0.702,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "matched_popqa": {
+        "n_pairs": 630,
+        "truth_AUROC": 0.7531,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "matched_rest": {
+        "n_pairs": 1535,
+        "truth_AUROC": 0.686,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7596,
+      "n_per_class": 2137
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1173,
+        "truth_AUROC": 0.6186,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5044
+      },
+      "matched_trivia": {
+        "n_pairs": 726,
+        "truth_AUROC": 0.5924,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.504
+      },
+      "matched_popqa": {
+        "n_pairs": 447,
+        "truth_AUROC": 0.674,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5053
+      },
+      "matched_rest": {
+        "n_pairs": 997,
+        "truth_AUROC": 0.6584,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5068
+      },
+      "unanimous": {
+        "n_pairs": 176,
+        "truth_AUROC": 0.572,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6186,
+          0.6405,
+          0.6433,
+          0.6393,
+          0.6277
+        ],
+        "mean": 0.6339,
+        "sd": 0.0104
+      },
+      "nested": 0.6088
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 794,
+        "truth_AUROC": 0.578,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5048
+      },
+      "matched_trivia": {
+        "n_pairs": 474,
+        "truth_AUROC": 0.5737,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5004
+      },
+      "matched_popqa": {
+        "n_pairs": 320,
+        "truth_AUROC": 0.5995,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5106
+      },
+      "matched_rest": {
+        "n_pairs": 674,
+        "truth_AUROC": 0.5745,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5056
+      },
+      "unanimous": {
+        "n_pairs": 120,
+        "truth_AUROC": 0.646,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1355,
+        "truth_AUROC": 0.6468,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001
+      },
+      "matched_trivia": {
+        "n_pairs": 826,
+        "truth_AUROC": 0.6503,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001
+      },
+      "matched_popqa": {
+        "n_pairs": 529,
+        "truth_AUROC": 0.6881,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "matched_rest": {
+        "n_pairs": 1355,
+        "truth_AUROC": 0.6611,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7391,
+      "n_per_class": 2992
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1207,
+        "truth_AUROC": 0.5804,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5049
+      },
+      "matched_trivia": {
+        "n_pairs": 898,
+        "truth_AUROC": 0.6047,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5052
+      },
+      "matched_popqa": {
+        "n_pairs": 309,
+        "truth_AUROC": 0.6536,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5039
+      },
+      "matched_rest": {
+        "n_pairs": 1105,
+        "truth_AUROC": 0.5833,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5046
+      },
+      "unanimous": {
+        "n_pairs": 102,
+        "truth_AUROC": 0.5751,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.5804,
+          0.5907,
+          0.6024,
+          0.5906,
+          0.5948
+        ],
+        "mean": 0.5918,
+        "sd": 0.008
+      },
+      "nested": 0.5698
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 637,
+        "truth_AUROC": 0.5594,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5024
+      },
+      "matched_trivia": {
+        "n_pairs": 427,
+        "truth_AUROC": 0.561,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009
+      },
+      "matched_popqa": {
+        "n_pairs": 210,
+        "truth_AUROC": 0.5668,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055
+      },
+      "matched_rest": {
+        "n_pairs": 556,
+        "truth_AUROC": 0.5622,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5011
+      },
+      "unanimous": {
+        "n_pairs": 81,
+        "truth_AUROC": 0.574,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1549,
+        "truth_AUROC": 0.636,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002
+      },
+      "matched_trivia": {
+        "n_pairs": 1169,
+        "truth_AUROC": 0.6428,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002
+      },
+      "matched_popqa": {
+        "n_pairs": 380,
+        "truth_AUROC": 0.7152,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5003
+      },
+      "matched_rest": {
+        "n_pairs": 1549,
+        "truth_AUROC": 0.6388,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "phi4-mini",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7495,
+      "n_per_class": 2528
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1134,
+        "truth_AUROC": 0.6089,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5045
+      },
+      "matched_trivia": {
+        "n_pairs": 866,
+        "truth_AUROC": 0.585,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5044
+      },
+      "matched_popqa": {
+        "n_pairs": 268,
+        "truth_AUROC": 0.6707,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5048
+      },
+      "matched_rest": {
+        "n_pairs": 1008,
+        "truth_AUROC": 0.6116,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5047
+      },
+      "unanimous": {
+        "n_pairs": 126,
+        "truth_AUROC": 0.6449,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6089,
+          0.6014,
+          0.6005,
+          0.5996,
+          0.5863
+        ],
+        "mean": 0.5993,
+        "sd": 0.0082
+      },
+      "nested": 0.5769
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 752,
+        "truth_AUROC": 0.5587,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4872
+      },
+      "matched_trivia": {
+        "n_pairs": 563,
+        "truth_AUROC": 0.5649,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4832
+      },
+      "matched_popqa": {
+        "n_pairs": 189,
+        "truth_AUROC": 0.6093,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4976
+      },
+      "matched_rest": {
+        "n_pairs": 662,
+        "truth_AUROC": 0.5599,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.486
+      },
+      "unanimous": {
+        "n_pairs": 90,
+        "truth_AUROC": 0.6022,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1505,
+        "truth_AUROC": 0.6406,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "matched_trivia": {
+        "n_pairs": 1203,
+        "truth_AUROC": 0.6337,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001
+      },
+      "matched_popqa": {
+        "n_pairs": 302,
+        "truth_AUROC": 0.7482,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4998
+      },
+      "matched_rest": {
+        "n_pairs": 1505,
+        "truth_AUROC": 0.6406,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7327,
+      "n_per_class": 1650
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1222,
+        "truth_AUROC": 0.6125,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5047
+      },
+      "matched_trivia": {
+        "n_pairs": 955,
+        "truth_AUROC": 0.6002,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5058
+      },
+      "matched_popqa": {
+        "n_pairs": 267,
+        "truth_AUROC": 0.7009,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5021
+      },
+      "matched_rest": {
+        "n_pairs": 1032,
+        "truth_AUROC": 0.639,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5063
+      },
+      "unanimous": {
+        "n_pairs": 190,
+        "truth_AUROC": 0.6808,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6125,
+          0.6318,
+          0.6194,
+          0.6358,
+          0.624
+        ],
+        "mean": 0.6247,
+        "sd": 0.0094
+      },
+      "nested": 0.6034
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 888,
+        "truth_AUROC": 0.5948,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5044
+      },
+      "matched_trivia": {
+        "n_pairs": 703,
+        "truth_AUROC": 0.5989,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.505
+      },
+      "matched_popqa": {
+        "n_pairs": 185,
+        "truth_AUROC": 0.6427,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5021
+      },
+      "matched_rest": {
+        "n_pairs": 721,
+        "truth_AUROC": 0.5934,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5056
+      },
+      "unanimous": {
+        "n_pairs": 167,
+        "truth_AUROC": 0.6707,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1406,
+        "truth_AUROC": 0.6685,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.501
+      },
+      "matched_trivia": {
+        "n_pairs": 1134,
+        "truth_AUROC": 0.6643,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5004
+      },
+      "matched_popqa": {
+        "n_pairs": 272,
+        "truth_AUROC": 0.7297,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5031
+      },
+      "matched_rest": {
+        "n_pairs": 1406,
+        "truth_AUROC": 0.6685,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.501
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "qwen3-14b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.789,
+      "n_per_class": 2604
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1165,
+        "truth_AUROC": 0.6344,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5057
+      },
+      "matched_trivia": {
+        "n_pairs": 785,
+        "truth_AUROC": 0.6497,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055
+      },
+      "matched_popqa": {
+        "n_pairs": 380,
+        "truth_AUROC": 0.6562,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5056
+      },
+      "matched_rest": {
+        "n_pairs": 894,
+        "truth_AUROC": 0.6329,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5119
+      },
+      "unanimous": {
+        "n_pairs": 271,
+        "truth_AUROC": 0.6731,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6344,
+          0.6339,
+          0.6433,
+          0.6336,
+          0.6373
+        ],
+        "mean": 0.6365,
+        "sd": 0.0041
+      },
+      "nested": 0.6263
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 862,
+        "truth_AUROC": 0.5804,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002
+      },
+      "matched_trivia": {
+        "n_pairs": 588,
+        "truth_AUROC": 0.584,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4967
+      },
+      "matched_popqa": {
+        "n_pairs": 274,
+        "truth_AUROC": 0.5817,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.505
+      },
+      "matched_rest": {
+        "n_pairs": 658,
+        "truth_AUROC": 0.5703,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5018
+      },
+      "unanimous": {
+        "n_pairs": 204,
+        "truth_AUROC": 0.65,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1394,
+        "truth_AUROC": 0.6931,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5013
+      },
+      "matched_trivia": {
+        "n_pairs": 950,
+        "truth_AUROC": 0.701,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5005
+      },
+      "matched_popqa": {
+        "n_pairs": 444,
+        "truth_AUROC": 0.7106,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5038
+      },
+      "matched_rest": {
+        "n_pairs": 1394,
+        "truth_AUROC": 0.6931,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5013
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "qwen3-32b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.8031,
+      "n_per_class": 2421
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1069,
+        "truth_AUROC": 0.6174,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5072
+      },
+      "matched_trivia": {
+        "n_pairs": 684,
+        "truth_AUROC": 0.633,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5092
+      },
+      "matched_popqa": {
+        "n_pairs": 385,
+        "truth_AUROC": 0.6714,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5041
+      },
+      "matched_rest": {
+        "n_pairs": 848,
+        "truth_AUROC": 0.6222,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5134
+      },
+      "unanimous": {
+        "n_pairs": 221,
+        "truth_AUROC": 0.6382,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6174,
+          0.6048,
+          0.6321,
+          0.6203,
+          0.62
+        ],
+        "mean": 0.6189,
+        "sd": 0.0097
+      },
+      "nested": 0.6151
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 720,
+        "truth_AUROC": 0.5793,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5045
+      },
+      "matched_trivia": {
+        "n_pairs": 463,
+        "truth_AUROC": 0.5734,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5061
+      },
+      "matched_popqa": {
+        "n_pairs": 257,
+        "truth_AUROC": 0.5712,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5031
+      },
+      "matched_rest": {
+        "n_pairs": 539,
+        "truth_AUROC": 0.5724,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5012
+      },
+      "unanimous": {
+        "n_pairs": 181,
+        "truth_AUROC": 0.6121,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1428,
+        "truth_AUROC": 0.7124,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.501
+      },
+      "matched_trivia": {
+        "n_pairs": 970,
+        "truth_AUROC": 0.7159,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5004
+      },
+      "matched_popqa": {
+        "n_pairs": 458,
+        "truth_AUROC": 0.7339,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5032
+      },
+      "matched_rest": {
+        "n_pairs": 1428,
+        "truth_AUROC": 0.6958,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "qwen3-4b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7617,
+      "n_per_class": 2257
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1305,
+        "truth_AUROC": 0.6129,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5094
+      },
+      "matched_trivia": {
+        "n_pairs": 1017,
+        "truth_AUROC": 0.6167,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5111
+      },
+      "matched_popqa": {
+        "n_pairs": 288,
+        "truth_AUROC": 0.7156,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5053
+      },
+      "matched_rest": {
+        "n_pairs": 1047,
+        "truth_AUROC": 0.6412,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5135
+      },
+      "unanimous": {
+        "n_pairs": 258,
+        "truth_AUROC": 0.6707,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6129,
+          0.6206,
+          0.6271,
+          0.6302,
+          0.635
+        ],
+        "mean": 0.6252,
+        "sd": 0.0086
+      },
+      "nested": 0.6117
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 942,
+        "truth_AUROC": 0.5793,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.505
+      },
+      "matched_trivia": {
+        "n_pairs": 749,
+        "truth_AUROC": 0.5917,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5062
+      },
+      "matched_popqa": {
+        "n_pairs": 193,
+        "truth_AUROC": 0.6322,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009
+      },
+      "matched_rest": {
+        "n_pairs": 750,
+        "truth_AUROC": 0.5898,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.512
+      },
+      "unanimous": {
+        "n_pairs": 192,
+        "truth_AUROC": 0.718,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1556,
+        "truth_AUROC": 0.6626,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5012
+      },
+      "matched_trivia": {
+        "n_pairs": 1245,
+        "truth_AUROC": 0.6496,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5015
+      },
+      "matched_popqa": {
+        "n_pairs": 311,
+        "truth_AUROC": 0.7223,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "matched_rest": {
+        "n_pairs": 1556,
+        "truth_AUROC": 0.6626,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5012
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  },
+  {
+    "model": "qwen3-8b",
+    "n": 6000,
+    "overall": {
+      "truth_AUROC": 0.7733,
+      "n_per_class": 2946
+    },
+    "anchor": {
+      "matched": {
+        "n_pairs": 1298,
+        "truth_AUROC": 0.6315,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5054
+      },
+      "matched_trivia": {
+        "n_pairs": 932,
+        "truth_AUROC": 0.6415,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5073
+      },
+      "matched_popqa": {
+        "n_pairs": 366,
+        "truth_AUROC": 0.6579,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5012
+      },
+      "matched_rest": {
+        "n_pairs": 1024,
+        "truth_AUROC": 0.6608,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5093
+      },
+      "unanimous": {
+        "n_pairs": 274,
+        "truth_AUROC": 0.6697,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      },
+      "seeds": {
+        "values": [
+          0.6315,
+          0.6315,
+          0.6436,
+          0.6201,
+          0.6369
+        ],
+        "mean": 0.6327,
+        "sd": 0.0086
+      },
+      "nested": 0.6236
+    },
+    "gold": {
+      "matched": {
+        "n_pairs": 950,
+        "truth_AUROC": 0.5833,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5029
+      },
+      "matched_trivia": {
+        "n_pairs": 692,
+        "truth_AUROC": 0.6272,
+        "best_depth": 0.8,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.502
+      },
+      "matched_popqa": {
+        "n_pairs": 258,
+        "truth_AUROC": 0.6153,
+        "best_depth": 0.4,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5051
+      },
+      "matched_rest": {
+        "n_pairs": 721,
+        "truth_AUROC": 0.5928,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5035
+      },
+      "unanimous": {
+        "n_pairs": 229,
+        "truth_AUROC": 0.6014,
+        "best_depth": 1.0,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5
+      }
+    },
+    "string": {
+      "matched": {
+        "n_pairs": 1570,
+        "truth_AUROC": 0.6784,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5015
+      },
+      "matched_trivia": {
+        "n_pairs": 1177,
+        "truth_AUROC": 0.6936,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5011
+      },
+      "matched_popqa": {
+        "n_pairs": 393,
+        "truth_AUROC": 0.7301,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5023
+      },
+      "matched_rest": {
+        "n_pairs": 1570,
+        "truth_AUROC": 0.6784,
+        "best_depth": 0.6,
+        "support_only_AUROC": 0.5,
+        "dataset_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5015
+      },
+      "unanimous": {
+        "n_pairs": 0,
+        "truth_AUROC": null
+      }
+    }
+  }
+]

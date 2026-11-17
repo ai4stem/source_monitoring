@@ -1,0 +1,122 @@
+[
+  {
+    "model": "gpt-5",
+    "access": "api",
+    "size_b": 0.0,
+    "macro_f1": 0.2559,
+    "confab_recall": 0.05,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 1.0,
+    "over_deference": 1.0,
+    "task_acc": 0.0738
+  },
+  {
+    "model": "claude-opus",
+    "access": "api",
+    "size_b": 0.0,
+    "macro_f1": 0.2706,
+    "confab_recall": 0.075,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 1.0,
+    "over_deference": 1.0,
+    "task_acc": 0.0738
+  },
+  {
+    "model": "claude-sonnet",
+    "access": "api",
+    "size_b": 0.0,
+    "macro_f1": 0.2706,
+    "confab_recall": 0.075,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 1.0,
+    "over_deference": 1.0,
+    "task_acc": 0.0738
+  },
+  {
+    "model": "qwen3-8b-prompted",
+    "access": "prompted",
+    "size_b": 8.0,
+    "macro_f1": 0.0713,
+    "confab_recall": 0.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 1.0,
+    "over_deference": 1.0,
+    "task_acc": 0.0738
+  },
+  {
+    "model": "phi4-mini",
+    "access": "weights",
+    "size_b": 3.8,
+    "macro_f1": 0.2172,
+    "confab_recall": 0.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 0.3333,
+    "over_deference": null,
+    "task_acc": 0.5924
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "access": "weights",
+    "size_b": 3.8,
+    "macro_f1": 0.2331,
+    "confab_recall": 0.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 0.1939,
+    "over_deference": null,
+    "task_acc": 0.5953
+  },
+  {
+    "model": "qwen3-8b",
+    "access": "weights",
+    "size_b": 8.0,
+    "macro_f1": 0.0646,
+    "confab_recall": 1.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 0.6036,
+    "over_deference": null,
+    "task_acc": 0.5906
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "access": "weights",
+    "size_b": 8.0,
+    "macro_f1": 0.2456,
+    "confab_recall": 0.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 0.6596,
+    "over_deference": null,
+    "task_acc": 0.7302
+  },
+  {
+    "model": "gemma3-12b",
+    "access": "weights",
+    "size_b": 12.0,
+    "macro_f1": 0.234,
+    "confab_recall": 0.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 0.7748,
+    "over_deference": null,
+    "task_acc": 0.7651
+  },
+  {
+    "model": "qwen3-32b",
+    "access": "weights",
+    "size_b": 32.0,
+    "macro_f1": 0.2331,
+    "confab_recall": 0.0,
+    "drm_confab_rate": 0.0,
+    "drm_effect": false,
+    "verbatim_override": 0.449,
+    "over_deference": null,
+    "task_acc": 0.6326
+  }
+]

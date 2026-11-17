@@ -1,0 +1,72 @@
+{
+  "attribution": {
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        9
+      ]
+    ],
+    "classes": [
+      "verbatim",
+      "parametric",
+      "confabulated"
+    ],
+    "per_class": {
+      "verbatim": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      "parametric": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "confabulated": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 9
+      }
+    },
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confabulated_recall": 1.0
+  },
+  "drm": {
+    "critical_lure_false_yes_rate": 0.0,
+    "studied_hit_rate": 1.0,
+    "unrelated_false_yes_rate": 0.2,
+    "by_BAS": {
+      "high_BAS": 0.0,
+      "medium_BAS": 0.0
+    },
+    "drm_effect_present": false
+  },
+  "conflict": {
+    "verbatim_override_rate": 1.0,
+    "over_deference_rate": 0.0
+  },
+  "task": {
+    "task_accuracy": 0.75,
+    "n": 24
+  },
+  "class_weights": {
+    "verbatim": 0.5194,
+    "parametric": 2.0165,
+    "confabulated": 0.464
+  }
+}

@@ -1,0 +1,906 @@
+[
+  {
+    "model": "gemma3-12b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7791,
+      "n_per_class": 2462
+    },
+    "matched_rest": {
+      "n_pairs": 840,
+      "truth_AUROC": 0.6703,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 22,
+        "n_incorrect": 264,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.333,
+        "n_correct": 50,
+        "n_incorrect": 398,
+        "truth_AUROC": 0.7816,
+        "n_per_class": 50
+      },
+      {
+        "support": 0.4,
+        "n_correct": 34,
+        "n_incorrect": 283,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.5,
+        "n_correct": 152,
+        "n_incorrect": 424,
+        "truth_AUROC": 0.734,
+        "n_per_class": 152
+      },
+      {
+        "support": 0.6,
+        "n_correct": 61,
+        "n_incorrect": 42,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 311,
+        "n_incorrect": 436,
+        "truth_AUROC": 0.7109,
+        "n_per_class": 311
+      },
+      {
+        "support": 0.833,
+        "n_correct": 354,
+        "n_incorrect": 229,
+        "truth_AUROC": 0.6047,
+        "n_per_class": 229
+      },
+      {
+        "support": 1.0,
+        "n_correct": 2554,
+        "n_incorrect": 386,
+        "truth_AUROC": 0.6458,
+        "n_per_class": 386
+      }
+    ]
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7504,
+      "n_per_class": 2230
+    },
+    "matched_rest": {
+      "n_pairs": 1001,
+      "truth_AUROC": 0.643,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 150,
+        "n_incorrect": 734,
+        "truth_AUROC": 0.7809,
+        "n_per_class": 150
+      },
+      {
+        "support": 0.333,
+        "n_correct": 175,
+        "n_incorrect": 459,
+        "truth_AUROC": 0.686,
+        "n_per_class": 175
+      },
+      {
+        "support": 0.4,
+        "n_correct": 78,
+        "n_incorrect": 106,
+        "truth_AUROC": 0.6828,
+        "n_per_class": 78
+      },
+      {
+        "support": 0.5,
+        "n_correct": 203,
+        "n_incorrect": 288,
+        "truth_AUROC": 0.5991,
+        "n_per_class": 203
+      },
+      {
+        "support": 0.6,
+        "n_correct": 52,
+        "n_incorrect": 12,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 269,
+        "n_incorrect": 205,
+        "truth_AUROC": 0.6208,
+        "n_per_class": 205
+      },
+      {
+        "support": 0.833,
+        "n_correct": 459,
+        "n_incorrect": 178,
+        "truth_AUROC": 0.6271,
+        "n_per_class": 178
+      },
+      {
+        "support": 1.0,
+        "n_correct": 2384,
+        "n_incorrect": 248,
+        "truth_AUROC": 0.7277,
+        "n_per_class": 248
+      }
+    ]
+  },
+  {
+    "model": "llama32-1b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7467,
+      "n_per_class": 1991
+    },
+    "matched_rest": {
+      "n_pairs": 1149,
+      "truth_AUROC": 0.6261,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 384,
+        "n_incorrect": 2498,
+        "truth_AUROC": 0.7832,
+        "n_per_class": 384
+      },
+      {
+        "support": 0.333,
+        "n_correct": 204,
+        "n_incorrect": 752,
+        "truth_AUROC": 0.6671,
+        "n_per_class": 204
+      },
+      {
+        "support": 0.4,
+        "n_correct": 56,
+        "n_incorrect": 103,
+        "truth_AUROC": 0.5038,
+        "n_per_class": 56
+      },
+      {
+        "support": 0.5,
+        "n_correct": 246,
+        "n_incorrect": 320,
+        "truth_AUROC": 0.5991,
+        "n_per_class": 246
+      },
+      {
+        "support": 0.6,
+        "n_correct": 18,
+        "n_incorrect": 8,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 231,
+        "n_incorrect": 173,
+        "truth_AUROC": 0.6007,
+        "n_per_class": 173
+      },
+      {
+        "support": 0.833,
+        "n_correct": 285,
+        "n_incorrect": 78,
+        "truth_AUROC": 0.5454,
+        "n_per_class": 78
+      },
+      {
+        "support": 1.0,
+        "n_correct": 567,
+        "n_incorrect": 77,
+        "truth_AUROC": 0.592,
+        "n_per_class": 77
+      }
+    ]
+  },
+  {
+    "model": "llama32-3b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7772,
+      "n_per_class": 2855
+    },
+    "matched_rest": {
+      "n_pairs": 1029,
+      "truth_AUROC": 0.6793,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 193,
+        "n_incorrect": 1591,
+        "truth_AUROC": 0.7626,
+        "n_per_class": 193
+      },
+      {
+        "support": 0.333,
+        "n_correct": 170,
+        "n_incorrect": 685,
+        "truth_AUROC": 0.7467,
+        "n_per_class": 170
+      },
+      {
+        "support": 0.4,
+        "n_correct": 60,
+        "n_incorrect": 98,
+        "truth_AUROC": 0.7322,
+        "n_per_class": 60
+      },
+      {
+        "support": 0.5,
+        "n_correct": 269,
+        "n_incorrect": 310,
+        "truth_AUROC": 0.6173,
+        "n_per_class": 269
+      },
+      {
+        "support": 0.6,
+        "n_correct": 22,
+        "n_incorrect": 5,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 324,
+        "n_incorrect": 195,
+        "truth_AUROC": 0.5865,
+        "n_per_class": 195
+      },
+      {
+        "support": 0.833,
+        "n_correct": 438,
+        "n_incorrect": 137,
+        "truth_AUROC": 0.613,
+        "n_per_class": 137
+      },
+      {
+        "support": 1.0,
+        "n_correct": 1379,
+        "n_incorrect": 124,
+        "truth_AUROC": 0.7116,
+        "n_per_class": 124
+      }
+    ]
+  },
+  {
+    "model": "mistral-7b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7522,
+      "n_per_class": 2241
+    },
+    "matched_rest": {
+      "n_pairs": 1462,
+      "truth_AUROC": 0.7446,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 983,
+        "n_incorrect": 1539,
+        "truth_AUROC": 0.7417,
+        "n_per_class": 983
+      },
+      {
+        "support": 0.333,
+        "n_correct": 177,
+        "n_incorrect": 173,
+        "truth_AUROC": 0.6327,
+        "n_per_class": 173
+      },
+      {
+        "support": 0.4,
+        "n_correct": 6,
+        "n_incorrect": 13,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.5,
+        "n_correct": 121,
+        "n_incorrect": 121,
+        "truth_AUROC": 0.6875,
+        "n_per_class": 121
+      },
+      {
+        "support": 0.6,
+        "n_correct": 3,
+        "n_incorrect": 4,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 123,
+        "n_incorrect": 71,
+        "truth_AUROC": 0.5412,
+        "n_per_class": 71
+      },
+      {
+        "support": 0.833,
+        "n_correct": 221,
+        "n_incorrect": 105,
+        "truth_AUROC": 0.6116,
+        "n_per_class": 105
+      },
+      {
+        "support": 1.0,
+        "n_correct": 2125,
+        "n_incorrect": 215,
+        "truth_AUROC": 0.5899,
+        "n_per_class": 215
+      }
+    ]
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7596,
+      "n_per_class": 2137
+    },
+    "matched_rest": {
+      "n_pairs": 1080,
+      "truth_AUROC": 0.6838,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 127,
+        "n_incorrect": 697,
+        "truth_AUROC": 0.8213,
+        "n_per_class": 127
+      },
+      {
+        "support": 0.333,
+        "n_correct": 145,
+        "n_incorrect": 415,
+        "truth_AUROC": 0.7379,
+        "n_per_class": 145
+      },
+      {
+        "support": 0.4,
+        "n_correct": 52,
+        "n_incorrect": 93,
+        "truth_AUROC": 0.5873,
+        "n_per_class": 52
+      },
+      {
+        "support": 0.5,
+        "n_correct": 293,
+        "n_incorrect": 289,
+        "truth_AUROC": 0.6761,
+        "n_per_class": 289
+      },
+      {
+        "support": 0.6,
+        "n_correct": 64,
+        "n_incorrect": 20,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 429,
+        "n_incorrect": 251,
+        "truth_AUROC": 0.618,
+        "n_per_class": 251
+      },
+      {
+        "support": 0.833,
+        "n_correct": 564,
+        "n_incorrect": 196,
+        "truth_AUROC": 0.6198,
+        "n_per_class": 196
+      },
+      {
+        "support": 1.0,
+        "n_correct": 2189,
+        "n_incorrect": 176,
+        "truth_AUROC": 0.6,
+        "n_per_class": 176
+      }
+    ]
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7391,
+      "n_per_class": 2992
+    },
+    "matched_rest": {
+      "n_pairs": 1129,
+      "truth_AUROC": 0.6147,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 309,
+        "n_incorrect": 1714,
+        "truth_AUROC": 0.746,
+        "n_per_class": 309
+      },
+      {
+        "support": 0.333,
+        "n_correct": 222,
+        "n_incorrect": 533,
+        "truth_AUROC": 0.6664,
+        "n_per_class": 222
+      },
+      {
+        "support": 0.4,
+        "n_correct": 43,
+        "n_incorrect": 56,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.5,
+        "n_correct": 231,
+        "n_incorrect": 263,
+        "truth_AUROC": 0.5893,
+        "n_per_class": 231
+      },
+      {
+        "support": 0.6,
+        "n_correct": 36,
+        "n_incorrect": 7,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 266,
+        "n_incorrect": 194,
+        "truth_AUROC": 0.6473,
+        "n_per_class": 194
+      },
+      {
+        "support": 0.833,
+        "n_correct": 466,
+        "n_incorrect": 123,
+        "truth_AUROC": 0.5752,
+        "n_per_class": 123
+      },
+      {
+        "support": 1.0,
+        "n_correct": 1435,
+        "n_incorrect": 102,
+        "truth_AUROC": 0.553,
+        "n_per_class": 102
+      }
+    ]
+  },
+  {
+    "model": "phi4-mini",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7495,
+      "n_per_class": 2528
+    },
+    "matched_rest": {
+      "n_pairs": 1041,
+      "truth_AUROC": 0.6252,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 191,
+        "n_incorrect": 1721,
+        "truth_AUROC": 0.7702,
+        "n_per_class": 191
+      },
+      {
+        "support": 0.333,
+        "n_correct": 141,
+        "n_incorrect": 702,
+        "truth_AUROC": 0.7365,
+        "n_per_class": 141
+      },
+      {
+        "support": 0.4,
+        "n_correct": 31,
+        "n_incorrect": 123,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.5,
+        "n_correct": 287,
+        "n_incorrect": 409,
+        "truth_AUROC": 0.5856,
+        "n_per_class": 287
+      },
+      {
+        "support": 0.6,
+        "n_correct": 47,
+        "n_incorrect": 13,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 325,
+        "n_incorrect": 252,
+        "truth_AUROC": 0.5751,
+        "n_per_class": 252
+      },
+      {
+        "support": 0.833,
+        "n_correct": 392,
+        "n_incorrect": 126,
+        "truth_AUROC": 0.5676,
+        "n_per_class": 126
+      },
+      {
+        "support": 1.0,
+        "n_correct": 1114,
+        "n_incorrect": 126,
+        "truth_AUROC": 0.6155,
+        "n_per_class": 126
+      }
+    ]
+  },
+  {
+    "model": "qwen3-1.7b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7327,
+      "n_per_class": 1650
+    },
+    "matched_rest": {
+      "n_pairs": 1059,
+      "truth_AUROC": 0.6294,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 64,
+        "n_incorrect": 1222,
+        "truth_AUROC": 0.7461,
+        "n_per_class": 64
+      },
+      {
+        "support": 0.333,
+        "n_correct": 113,
+        "n_incorrect": 1153,
+        "truth_AUROC": 0.6496,
+        "n_per_class": 113
+      },
+      {
+        "support": 0.4,
+        "n_correct": 75,
+        "n_incorrect": 377,
+        "truth_AUROC": 0.651,
+        "n_per_class": 75
+      },
+      {
+        "support": 0.5,
+        "n_correct": 264,
+        "n_incorrect": 734,
+        "truth_AUROC": 0.6071,
+        "n_per_class": 264
+      },
+      {
+        "support": 0.6,
+        "n_correct": 50,
+        "n_incorrect": 30,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 276,
+        "n_incorrect": 407,
+        "truth_AUROC": 0.6377,
+        "n_per_class": 276
+      },
+      {
+        "support": 0.833,
+        "n_correct": 260,
+        "n_incorrect": 237,
+        "truth_AUROC": 0.6335,
+        "n_per_class": 237
+      },
+      {
+        "support": 1.0,
+        "n_correct": 548,
+        "n_incorrect": 190,
+        "truth_AUROC": 0.6954,
+        "n_per_class": 190
+      }
+    ]
+  },
+  {
+    "model": "qwen3-14b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.789,
+      "n_per_class": 2604
+    },
+    "matched_rest": {
+      "n_pairs": 981,
+      "truth_AUROC": 0.6253,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 28,
+        "n_incorrect": 573,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.333,
+        "n_correct": 72,
+        "n_incorrect": 514,
+        "truth_AUROC": 0.701,
+        "n_per_class": 72
+      },
+      {
+        "support": 0.4,
+        "n_correct": 70,
+        "n_incorrect": 231,
+        "truth_AUROC": 0.5892,
+        "n_per_class": 70
+      },
+      {
+        "support": 0.5,
+        "n_correct": 231,
+        "n_incorrect": 434,
+        "truth_AUROC": 0.584,
+        "n_per_class": 231
+      },
+      {
+        "support": 0.6,
+        "n_correct": 78,
+        "n_incorrect": 25,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 352,
+        "n_incorrect": 353,
+        "truth_AUROC": 0.6711,
+        "n_per_class": 352
+      },
+      {
+        "support": 0.833,
+        "n_correct": 398,
+        "n_incorrect": 203,
+        "truth_AUROC": 0.6853,
+        "n_per_class": 203
+      },
+      {
+        "support": 1.0,
+        "n_correct": 2167,
+        "n_incorrect": 271,
+        "truth_AUROC": 0.6855,
+        "n_per_class": 271
+      }
+    ]
+  },
+  {
+    "model": "qwen3-32b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.8031,
+      "n_per_class": 2421
+    },
+    "matched_rest": {
+      "n_pairs": 892,
+      "truth_AUROC": 0.6287,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 52,
+        "n_incorrect": 649,
+        "truth_AUROC": 0.6694,
+        "n_per_class": 52
+      },
+      {
+        "support": 0.333,
+        "n_correct": 69,
+        "n_incorrect": 492,
+        "truth_AUROC": 0.7332,
+        "n_per_class": 69
+      },
+      {
+        "support": 0.4,
+        "n_correct": 65,
+        "n_incorrect": 186,
+        "truth_AUROC": 0.7202,
+        "n_per_class": 65
+      },
+      {
+        "support": 0.5,
+        "n_correct": 219,
+        "n_incorrect": 386,
+        "truth_AUROC": 0.6317,
+        "n_per_class": 219
+      },
+      {
+        "support": 0.6,
+        "n_correct": 71,
+        "n_incorrect": 21,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 374,
+        "n_incorrect": 272,
+        "truth_AUROC": 0.6488,
+        "n_per_class": 272
+      },
+      {
+        "support": 0.833,
+        "n_correct": 481,
+        "n_incorrect": 194,
+        "truth_AUROC": 0.636,
+        "n_per_class": 194
+      },
+      {
+        "support": 1.0,
+        "n_correct": 2248,
+        "n_incorrect": 221,
+        "truth_AUROC": 0.6575,
+        "n_per_class": 221
+      }
+    ]
+  },
+  {
+    "model": "qwen3-4b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7617,
+      "n_per_class": 2257
+    },
+    "matched_rest": {
+      "n_pairs": 1055,
+      "truth_AUROC": 0.6554,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 53,
+        "n_incorrect": 898,
+        "truth_AUROC": 0.8231,
+        "n_per_class": 53
+      },
+      {
+        "support": 0.333,
+        "n_correct": 86,
+        "n_incorrect": 818,
+        "truth_AUROC": 0.6264,
+        "n_per_class": 86
+      },
+      {
+        "support": 0.4,
+        "n_correct": 59,
+        "n_incorrect": 372,
+        "truth_AUROC": 0.684,
+        "n_per_class": 59
+      },
+      {
+        "support": 0.5,
+        "n_correct": 235,
+        "n_incorrect": 631,
+        "truth_AUROC": 0.6537,
+        "n_per_class": 235
+      },
+      {
+        "support": 0.6,
+        "n_correct": 66,
+        "n_incorrect": 30,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 353,
+        "n_incorrect": 497,
+        "truth_AUROC": 0.7174,
+        "n_per_class": 353
+      },
+      {
+        "support": 0.833,
+        "n_correct": 303,
+        "n_incorrect": 239,
+        "truth_AUROC": 0.6629,
+        "n_per_class": 239
+      },
+      {
+        "support": 1.0,
+        "n_correct": 1102,
+        "n_incorrect": 258,
+        "truth_AUROC": 0.6182,
+        "n_per_class": 258
+      }
+    ]
+  },
+  {
+    "model": "qwen3-8b",
+    "variant": "anchor",
+    "overall": {
+      "truth_AUROC": 0.7733,
+      "n_per_class": 2946
+    },
+    "matched_rest": {
+      "n_pairs": 1062,
+      "truth_AUROC": 0.6541,
+      "support_only_AUROC": 0.5
+    },
+    "by_level": [
+      {
+        "support": 0.2,
+        "n_correct": 61,
+        "n_incorrect": 754,
+        "truth_AUROC": 0.8371,
+        "n_per_class": 61
+      },
+      {
+        "support": 0.333,
+        "n_correct": 84,
+        "n_incorrect": 639,
+        "truth_AUROC": 0.7725,
+        "n_per_class": 84
+      },
+      {
+        "support": 0.4,
+        "n_correct": 62,
+        "n_incorrect": 257,
+        "truth_AUROC": 0.6249,
+        "n_per_class": 62
+      },
+      {
+        "support": 0.5,
+        "n_correct": 243,
+        "n_incorrect": 486,
+        "truth_AUROC": 0.6577,
+        "n_per_class": 243
+      },
+      {
+        "support": 0.6,
+        "n_correct": 85,
+        "n_incorrect": 32,
+        "truth_AUROC": null
+      },
+      {
+        "support": 0.667,
+        "n_correct": 341,
+        "n_incorrect": 373,
+        "truth_AUROC": 0.6232,
+        "n_per_class": 341
+      },
+      {
+        "support": 0.833,
+        "n_correct": 335,
+        "n_incorrect": 239,
+        "truth_AUROC": 0.6492,
+        "n_per_class": 239
+      },
+      {
+        "support": 1.0,
+        "n_correct": 1735,
+        "n_incorrect": 274,
+        "truth_AUROC": 0.6569,
+        "n_per_class": 274
+      }
+    ]
+  }
+]

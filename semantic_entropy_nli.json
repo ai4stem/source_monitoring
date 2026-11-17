@@ -1,0 +1,54 @@
+[
+  {
+    "model": "gemma3-12b",
+    "auroc_incorrect_nli": 0.754
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "auroc_incorrect_nli": 0.802
+  },
+  {
+    "model": "llama32-1b",
+    "auroc_incorrect_nli": 0.732
+  },
+  {
+    "model": "llama32-3b",
+    "auroc_incorrect_nli": 0.767
+  },
+  {
+    "model": "mistral-7b",
+    "auroc_incorrect_nli": 0.656
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "auroc_incorrect_nli": 0.746
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "auroc_incorrect_nli": 0.804
+  },
+  {
+    "model": "phi4-mini",
+    "auroc_incorrect_nli": 0.807
+  },
+  {
+    "model": "qwen3-1.7b",
+    "auroc_incorrect_nli": 0.754
+  },
+  {
+    "model": "qwen3-14b",
+    "auroc_incorrect_nli": 0.787
+  },
+  {
+    "model": "qwen3-32b",
+    "auroc_incorrect_nli": 0.797
+  },
+  {
+    "model": "qwen3-4b",
+    "auroc_incorrect_nli": 0.805
+  },
+  {
+    "model": "qwen3-8b",
+    "auroc_incorrect_nli": 0.756
+  }
+]

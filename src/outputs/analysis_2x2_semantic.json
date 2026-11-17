@@ -1,0 +1,1640 @@
+[
+  {
+    "model": "gemma3-12b",
+    "n": 6000,
+    "accuracy": 0.5897,
+    "frac_long_answers_unclustered": 0.2945,
+    "string": {
+      "support_mean": 0.4523,
+      "support_median": 0.5,
+      "frac_unanimous": 0.0002,
+      "support_only_AUROC_all": 0.7519,
+      "cells_median_split": {
+        "correct_low": 1859,
+        "correct_high": 1679,
+        "incorrect_low": 2154,
+        "incorrect_high": 308
+      },
+      "matched": {
+        "n_pairs": 1736,
+        "truth_AUROC": 0.7289,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5006,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.5
+        ],
+        "low_truth_AUROC": 0.7662,
+        "low_n_per_class": 902,
+        "high_truth_AUROC": 0.7355,
+        "high_n_per_class": 719,
+        "low_support_only_AUROC": 0.5782,
+        "high_support_only_AUROC": 0.6317
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 1,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7766,
+        "rest_n_per_class": 2462,
+        "rest_support_only_AUROC": 0.7541
+      }
+    },
+    "anchor": {
+      "support_mean": 0.7678,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.49,
+      "support_only_AUROC_all": 0.8392,
+      "cells_median_split": {
+        "correct_low": 984,
+        "correct_high": 2554,
+        "incorrect_low": 2076,
+        "incorrect_high": 386
+      },
+      "matched": {
+        "n_pairs": 1226,
+        "truth_AUROC": 0.6457,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.503,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.6667,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7602,
+        "low_n_per_class": 630,
+        "high_truth_AUROC": 0.6458,
+        "high_n_per_class": 386,
+        "low_support_only_AUROC": 0.708,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6458,
+        "n_per_class": 386,
+        "n_correct": 2554,
+        "n_incorrect": 386,
+        "rest_truth_AUROC": 0.7145,
+        "rest_n_per_class": 984,
+        "rest_support_only_AUROC": 0.7351
+      }
+    },
+    "gold": {
+      "support_mean": 0.785,
+      "support_median": 1.0,
+      "frac_unanimous": 0.5328,
+      "support_only_AUROC_all": 0.8903,
+      "cells_median_split": {
+        "correct_low": 3538,
+        "correct_high": 0,
+        "incorrect_low": 2462,
+        "incorrect_high": 0
+      },
+      "matched": {
+        "n_pairs": 891,
+        "truth_AUROC": 0.6203,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5025,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.6667,
+          1.0
+        ],
+        "low_truth_AUROC": 0.6622,
+        "low_n_per_class": 388,
+        "high_truth_AUROC": 0.6938,
+        "high_n_per_class": 318,
+        "low_support_only_AUROC": 0.7511,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6938,
+        "n_per_class": 318,
+        "n_correct": 2879,
+        "n_incorrect": 318,
+        "rest_truth_AUROC": 0.7067,
+        "rest_n_per_class": 659,
+        "rest_support_only_AUROC": 0.786
+      }
+    }
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n": 6000,
+    "accuracy": 0.6283,
+    "frac_long_answers_unclustered": 0.3805,
+    "string": {
+      "support_mean": 0.3514,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.7456,
+      "cells_median_split": {
+        "correct_low": 1914,
+        "correct_high": 1856,
+        "incorrect_low": 1945,
+        "incorrect_high": 285
+      },
+      "matched": {
+        "n_pairs": 1708,
+        "truth_AUROC": 0.6863,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5006,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.4
+        ],
+        "low_truth_AUROC": 0.749,
+        "low_n_per_class": 805,
+        "high_truth_AUROC": 0.7114,
+        "high_n_per_class": 285,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.567
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7504,
+        "rest_n_per_class": 2230,
+        "rest_support_only_AUROC": 0.7437
+      }
+    },
+    "anchor": {
+      "support_mean": 0.7041,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.4387,
+      "support_only_AUROC_all": 0.8379,
+      "cells_median_split": {
+        "correct_low": 1386,
+        "correct_high": 2384,
+        "incorrect_low": 1982,
+        "incorrect_high": 248
+      },
+      "matched": {
+        "n_pairs": 1249,
+        "truth_AUROC": 0.6361,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5032,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7376,
+        "low_n_per_class": 606,
+        "high_truth_AUROC": 0.7277,
+        "high_n_per_class": 248,
+        "low_support_only_AUROC": 0.6492,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.7277,
+        "n_per_class": 248,
+        "n_correct": 2384,
+        "n_incorrect": 248,
+        "rest_truth_AUROC": 0.6995,
+        "rest_n_per_class": 1386,
+        "rest_support_only_AUROC": 0.7356
+      }
+    },
+    "gold": {
+      "support_mean": 0.7442,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.478,
+      "support_only_AUROC_all": 0.9109,
+      "cells_median_split": {
+        "correct_low": 1097,
+        "correct_high": 2673,
+        "incorrect_low": 2035,
+        "incorrect_high": 195
+      },
+      "matched": {
+        "n_pairs": 788,
+        "truth_AUROC": 0.574,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5028,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.6667,
+          1.0
+        ],
+        "low_truth_AUROC": 0.6779,
+        "low_n_per_class": 594,
+        "high_truth_AUROC": 0.6775,
+        "high_n_per_class": 195,
+        "low_support_only_AUROC": 0.8989,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6775,
+        "n_per_class": 195,
+        "n_correct": 2673,
+        "n_incorrect": 195,
+        "rest_truth_AUROC": 0.685,
+        "rest_n_per_class": 1097,
+        "rest_support_only_AUROC": 0.8777
+      }
+    }
+  },
+  {
+    "model": "llama32-1b",
+    "n": 6000,
+    "accuracy": 0.3318,
+    "frac_long_answers_unclustered": 0.7641,
+    "string": {
+      "support_mean": 0.2745,
+      "support_median": 0.2,
+      "frac_unanimous": 0.0005,
+      "support_only_AUROC_all": 0.713,
+      "cells_median_split": {
+        "correct_low": 766,
+        "correct_high": 1225,
+        "incorrect_low": 3078,
+        "incorrect_high": 931
+      },
+      "matched": {
+        "n_pairs": 1573,
+        "truth_AUROC": 0.7117,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5004,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.3333
+        ],
+        "low_truth_AUROC": 0.7492,
+        "low_n_per_class": 766,
+        "high_truth_AUROC": 0.6828,
+        "high_n_per_class": 931,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.6466
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 3,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7328,
+        "rest_n_per_class": 1988,
+        "rest_support_only_AUROC": 0.7141
+      }
+    },
+    "anchor": {
+      "support_mean": 0.4122,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.1073,
+      "support_only_AUROC_all": 0.8033,
+      "cells_median_split": {
+        "correct_low": 588,
+        "correct_high": 1403,
+        "incorrect_low": 3250,
+        "incorrect_high": 759
+      },
+      "matched": {
+        "n_pairs": 1226,
+        "truth_AUROC": 0.6792,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5008,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.5
+        ],
+        "low_truth_AUROC": 0.7832,
+        "low_n_per_class": 384,
+        "high_truth_AUROC": 0.6394,
+        "high_n_per_class": 656,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.7438
+      },
+      "unanimous": {
+        "truth_AUROC": 0.592,
+        "n_per_class": 77,
+        "n_correct": 567,
+        "n_incorrect": 77,
+        "rest_truth_AUROC": 0.7402,
+        "rest_n_per_class": 1424,
+        "rest_support_only_AUROC": 0.7363
+      }
+    },
+    "gold": {
+      "support_mean": 0.4722,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.1393,
+      "support_only_AUROC_all": 0.9595,
+      "cells_median_split": {
+        "correct_low": 0,
+        "correct_high": 1991,
+        "incorrect_low": 3214,
+        "incorrect_high": 795
+      },
+      "matched": {
+        "n_pairs": 614,
+        "truth_AUROC": 0.5886,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.483,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.6
+        ],
+        "low_truth_AUROC": null,
+        "low_n_per_class": null,
+        "high_truth_AUROC": 0.6149,
+        "high_n_per_class": 316,
+        "low_support_only_AUROC": null,
+        "high_support_only_AUROC": 0.6391
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6218,
+        "n_per_class": 68,
+        "n_correct": 768,
+        "n_incorrect": 68,
+        "rest_truth_AUROC": 0.7115,
+        "rest_n_per_class": 1223,
+        "rest_support_only_AUROC": 0.9551
+      }
+    }
+  },
+  {
+    "model": "llama32-3b",
+    "n": 6000,
+    "accuracy": 0.4758,
+    "frac_long_answers_unclustered": 0.6157,
+    "string": {
+      "support_mean": 0.3086,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0005,
+      "support_only_AUROC_all": 0.77,
+      "cells_median_split": {
+        "correct_low": 1621,
+        "correct_high": 1234,
+        "incorrect_low": 2915,
+        "incorrect_high": 230
+      },
+      "matched": {
+        "n_pairs": 1607,
+        "truth_AUROC": 0.7022,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5012,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.3333
+        ],
+        "low_truth_AUROC": 0.7705,
+        "low_n_per_class": 688,
+        "high_truth_AUROC": 0.7446,
+        "high_n_per_class": 919,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.6557
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 3,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7856,
+        "rest_n_per_class": 2852,
+        "rest_support_only_AUROC": 0.7695
+      }
+    },
+    "anchor": {
+      "support_mean": 0.5565,
+      "support_median": 0.5,
+      "frac_unanimous": 0.2505,
+      "support_only_AUROC_all": 0.8697,
+      "cells_median_split": {
+        "correct_low": 692,
+        "correct_high": 2163,
+        "incorrect_low": 2684,
+        "incorrect_high": 461
+      },
+      "matched": {
+        "n_pairs": 1153,
+        "truth_AUROC": 0.6355,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.8333
+        ],
+        "low_truth_AUROC": 0.7783,
+        "low_n_per_class": 363,
+        "high_truth_AUROC": 0.6078,
+        "high_n_per_class": 261,
+        "low_support_only_AUROC": 0.5964,
+        "high_support_only_AUROC": 0.6609
+      },
+      "unanimous": {
+        "truth_AUROC": 0.7116,
+        "n_per_class": 124,
+        "n_correct": 1379,
+        "n_incorrect": 124,
+        "rest_truth_AUROC": 0.7651,
+        "rest_n_per_class": 1476,
+        "rest_support_only_AUROC": 0.7985
+      }
+    },
+    "gold": {
+      "support_mean": 0.5976,
+      "support_median": 0.6,
+      "frac_unanimous": 0.2848,
+      "support_only_AUROC_all": 0.9469,
+      "cells_median_split": {
+        "correct_low": 312,
+        "correct_high": 2543,
+        "incorrect_low": 2711,
+        "incorrect_high": 434
+      },
+      "matched": {
+        "n_pairs": 708,
+        "truth_AUROC": 0.5796,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5076,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.8333
+        ],
+        "low_truth_AUROC": null,
+        "low_n_per_class": null,
+        "high_truth_AUROC": 0.6037,
+        "high_n_per_class": 232,
+        "low_support_only_AUROC": null,
+        "high_support_only_AUROC": 0.6724
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6004,
+        "n_per_class": 95,
+        "n_correct": 1614,
+        "n_incorrect": 95,
+        "rest_truth_AUROC": 0.7571,
+        "rest_n_per_class": 1241,
+        "rest_support_only_AUROC": 0.932
+      }
+    }
+  },
+  {
+    "model": "mistral-7b",
+    "n": 6000,
+    "accuracy": 0.6265,
+    "frac_long_answers_unclustered": 0.5636,
+    "string": {
+      "support_mean": 0.2271,
+      "support_median": 0.2,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.5772,
+      "cells_median_split": {
+        "correct_low": 3025,
+        "correct_high": 734,
+        "incorrect_low": 2147,
+        "incorrect_high": 94
+      },
+      "matched": {
+        "n_pairs": 2241,
+        "truth_AUROC": 0.7365,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.2
+        ],
+        "low_truth_AUROC": 0.7439,
+        "low_n_per_class": 2147,
+        "high_truth_AUROC": 0.7522,
+        "high_n_per_class": 2241,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.5754
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7522,
+        "rest_n_per_class": 2241,
+        "rest_support_only_AUROC": 0.5754
+      }
+    },
+    "anchor": {
+      "support_mean": 0.5825,
+      "support_median": 0.5,
+      "frac_unanimous": 0.39,
+      "support_only_AUROC_all": 0.769,
+      "cells_median_split": {
+        "correct_low": 1287,
+        "correct_high": 2472,
+        "incorrect_low": 1846,
+        "incorrect_high": 395
+      },
+      "matched": {
+        "n_pairs": 1677,
+        "truth_AUROC": 0.6535,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4999,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7417,
+        "low_n_per_class": 983,
+        "high_truth_AUROC": 0.5899,
+        "high_n_per_class": 215,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.5899,
+        "n_per_class": 215,
+        "n_correct": 2125,
+        "n_incorrect": 215,
+        "rest_truth_AUROC": 0.7102,
+        "rest_n_per_class": 1634,
+        "rest_support_only_AUROC": 0.5858
+      }
+    },
+    "gold": {
+      "support_mean": 0.717,
+      "support_median": 1.0,
+      "frac_unanimous": 0.5098,
+      "support_only_AUROC_all": 0.9395,
+      "cells_median_split": {
+        "correct_low": 3759,
+        "correct_high": 0,
+        "incorrect_low": 2241,
+        "incorrect_high": 0
+      },
+      "matched": {
+        "n_pairs": 504,
+        "truth_AUROC": 0.587,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4981,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.6153,
+        "low_n_per_class": 150,
+        "high_truth_AUROC": 0.6972,
+        "high_n_per_class": 173,
+        "low_support_only_AUROC": 0.9633,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6972,
+        "n_per_class": 173,
+        "n_correct": 2886,
+        "n_incorrect": 173,
+        "rest_truth_AUROC": 0.6466,
+        "rest_n_per_class": 873,
+        "rest_support_only_AUROC": 0.9389
+      }
+    }
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n": 6000,
+    "accuracy": 0.6438,
+    "frac_long_answers_unclustered": 0.354,
+    "string": {
+      "support_mean": 0.3846,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0002,
+      "support_only_AUROC_all": 0.7592,
+      "cells_median_split": {
+        "correct_low": 1666,
+        "correct_high": 2197,
+        "incorrect_low": 1782,
+        "incorrect_high": 355
+      },
+      "matched": {
+        "n_pairs": 1568,
+        "truth_AUROC": 0.687,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.5
+        ],
+        "low_truth_AUROC": 0.7476,
+        "low_n_per_class": 1666,
+        "high_truth_AUROC": 0.6668,
+        "high_n_per_class": 332,
+        "low_support_only_AUROC": 0.6432,
+        "high_support_only_AUROC": 0.5602
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 1,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7659,
+        "rest_n_per_class": 2137,
+        "rest_support_only_AUROC": 0.7652
+      }
+    },
+    "anchor": {
+      "support_mean": 0.7004,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.3942,
+      "support_only_AUROC_all": 0.8439,
+      "cells_median_split": {
+        "correct_low": 1674,
+        "correct_high": 2189,
+        "incorrect_low": 1961,
+        "incorrect_high": 176
+      },
+      "matched": {
+        "n_pairs": 1256,
+        "truth_AUROC": 0.6764,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.507,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7829,
+        "low_n_per_class": 617,
+        "high_truth_AUROC": 0.6,
+        "high_n_per_class": 176,
+        "low_support_only_AUROC": 0.6864,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6,
+        "n_per_class": 176,
+        "n_correct": 2189,
+        "n_incorrect": 176,
+        "rest_truth_AUROC": 0.7422,
+        "rest_n_per_class": 1674,
+        "rest_support_only_AUROC": 0.7604
+      }
+    },
+    "gold": {
+      "support_mean": 0.7475,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.4762,
+      "support_only_AUROC_all": 0.9228,
+      "cells_median_split": {
+        "correct_low": 1126,
+        "correct_high": 2737,
+        "incorrect_low": 2017,
+        "incorrect_high": 120
+      },
+      "matched": {
+        "n_pairs": 811,
+        "truth_AUROC": 0.6026,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.6667,
+          1.0
+        ],
+        "low_truth_AUROC": 0.705,
+        "low_n_per_class": 641,
+        "high_truth_AUROC": 0.6475,
+        "high_n_per_class": 120,
+        "low_support_only_AUROC": 0.8679,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6475,
+        "n_per_class": 120,
+        "n_correct": 2737,
+        "n_incorrect": 120,
+        "rest_truth_AUROC": 0.6747,
+        "rest_n_per_class": 1126,
+        "rest_support_only_AUROC": 0.8493
+      }
+    }
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n": 6000,
+    "accuracy": 0.5013,
+    "frac_long_answers_unclustered": 0.5835,
+    "string": {
+      "support_mean": 0.2877,
+      "support_median": 0.2,
+      "frac_unanimous": 0.0002,
+      "support_only_AUROC_all": 0.7575,
+      "cells_median_split": {
+        "correct_low": 987,
+        "correct_high": 2021,
+        "incorrect_low": 2429,
+        "incorrect_high": 563
+      },
+      "matched": {
+        "n_pairs": 1549,
+        "truth_AUROC": 0.7121,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5001,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.3333
+        ],
+        "low_truth_AUROC": 0.7042,
+        "low_n_per_class": 987,
+        "high_truth_AUROC": 0.6637,
+        "high_n_per_class": 563,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.6266
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 1,
+        "rest_truth_AUROC": 0.7468,
+        "rest_n_per_class": 2991,
+        "rest_support_only_AUROC": 0.7578
+      }
+    },
+    "anchor": {
+      "support_mean": 0.5505,
+      "support_median": 0.5,
+      "frac_unanimous": 0.2562,
+      "support_only_AUROC_all": 0.8562,
+      "cells_median_split": {
+        "correct_low": 805,
+        "correct_high": 2203,
+        "incorrect_low": 2566,
+        "incorrect_high": 426
+      },
+      "matched": {
+        "n_pairs": 1231,
+        "truth_AUROC": 0.6182,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5047,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.8333
+        ],
+        "low_truth_AUROC": 0.746,
+        "low_n_per_class": 309,
+        "high_truth_AUROC": 0.6433,
+        "high_n_per_class": 225,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.6578
+      },
+      "unanimous": {
+        "truth_AUROC": 0.553,
+        "n_per_class": 102,
+        "n_correct": 1435,
+        "n_incorrect": 102,
+        "rest_truth_AUROC": 0.6841,
+        "rest_n_per_class": 1573,
+        "rest_support_only_AUROC": 0.7667
+      }
+    },
+    "gold": {
+      "support_mean": 0.6049,
+      "support_median": 0.6667,
+      "frac_unanimous": 0.301,
+      "support_only_AUROC_all": 0.9516,
+      "cells_median_split": {
+        "correct_low": 752,
+        "correct_high": 2256,
+        "incorrect_low": 2801,
+        "incorrect_high": 191
+      },
+      "matched": {
+        "n_pairs": 662,
+        "truth_AUROC": 0.5809,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5044,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.8333
+        ],
+        "low_truth_AUROC": null,
+        "low_n_per_class": null,
+        "high_truth_AUROC": 0.5725,
+        "high_n_per_class": 191,
+        "low_support_only_AUROC": null,
+        "high_support_only_AUROC": 0.678
+      },
+      "unanimous": {
+        "truth_AUROC": 0.5842,
+        "n_per_class": 81,
+        "n_correct": 1725,
+        "n_incorrect": 81,
+        "rest_truth_AUROC": 0.6714,
+        "rest_n_per_class": 1283,
+        "rest_support_only_AUROC": 0.9299
+      }
+    }
+  },
+  {
+    "model": "phi4-mini",
+    "n": 6000,
+    "accuracy": 0.4213,
+    "frac_long_answers_unclustered": 0.6012,
+    "string": {
+      "support_mean": 0.3476,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.7824,
+      "cells_median_split": {
+        "correct_low": 1057,
+        "correct_high": 1471,
+        "incorrect_low": 3006,
+        "incorrect_high": 466
+      },
+      "matched": {
+        "n_pairs": 1523,
+        "truth_AUROC": 0.6739,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5002,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.3333
+        ],
+        "low_truth_AUROC": 0.7609,
+        "low_n_per_class": 540,
+        "high_truth_AUROC": 0.6674,
+        "high_n_per_class": 1141,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.6986
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7495,
+        "rest_n_per_class": 2528,
+        "rest_support_only_AUROC": 0.7831
+      }
+    },
+    "anchor": {
+      "support_mean": 0.5276,
+      "support_median": 0.5,
+      "frac_unanimous": 0.2067,
+      "support_only_AUROC_all": 0.8604,
+      "cells_median_split": {
+        "correct_low": 650,
+        "correct_high": 1878,
+        "incorrect_low": 2955,
+        "incorrect_high": 517
+      },
+      "matched": {
+        "n_pairs": 1167,
+        "truth_AUROC": 0.6033,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5055,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.6667
+        ],
+        "low_truth_AUROC": 0.7579,
+        "low_n_per_class": 332,
+        "high_truth_AUROC": 0.6296,
+        "high_n_per_class": 504,
+        "low_support_only_AUROC": 0.5572,
+        "high_support_only_AUROC": 0.723
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6155,
+        "n_per_class": 126,
+        "n_correct": 1114,
+        "n_incorrect": 126,
+        "rest_truth_AUROC": 0.7209,
+        "rest_n_per_class": 1414,
+        "rest_support_only_AUROC": 0.7962
+      }
+    },
+    "gold": {
+      "support_mean": 0.5643,
+      "support_median": 0.5,
+      "frac_unanimous": 0.2363,
+      "support_only_AUROC_all": 0.9454,
+      "cells_median_split": {
+        "correct_low": 301,
+        "correct_high": 2227,
+        "incorrect_low": 3005,
+        "incorrect_high": 467
+      },
+      "matched": {
+        "n_pairs": 768,
+        "truth_AUROC": 0.5608,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.4929,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.8333
+        ],
+        "low_truth_AUROC": null,
+        "low_n_per_class": null,
+        "high_truth_AUROC": 0.5971,
+        "high_n_per_class": 206,
+        "low_support_only_AUROC": null,
+        "high_support_only_AUROC": 0.6214
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6198,
+        "n_per_class": 90,
+        "n_correct": 1328,
+        "n_incorrect": 90,
+        "rest_truth_AUROC": 0.7059,
+        "rest_n_per_class": 1200,
+        "rest_support_only_AUROC": 0.9264
+      }
+    }
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n": 6000,
+    "accuracy": 0.275,
+    "frac_long_answers_unclustered": 0.5662,
+    "string": {
+      "support_mean": 0.3006,
+      "support_median": 0.2,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.7336,
+      "cells_median_split": {
+        "correct_low": 396,
+        "correct_high": 1254,
+        "incorrect_low": 2704,
+        "incorrect_high": 1646
+      },
+      "matched": {
+        "n_pairs": 1406,
+        "truth_AUROC": 0.6616,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5011,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.3333
+        ],
+        "low_truth_AUROC": 0.7307,
+        "low_n_per_class": 396,
+        "high_truth_AUROC": 0.6852,
+        "high_n_per_class": 1254,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.646
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7327,
+        "rest_n_per_class": 1650,
+        "rest_support_only_AUROC": 0.7356
+      }
+    },
+    "anchor": {
+      "support_mean": 0.5024,
+      "support_median": 0.4,
+      "frac_unanimous": 0.123,
+      "support_only_AUROC_all": 0.814,
+      "cells_median_split": {
+        "correct_low": 252,
+        "correct_high": 1398,
+        "incorrect_low": 2752,
+        "incorrect_high": 1598
+      },
+      "matched": {
+        "n_pairs": 1249,
+        "truth_AUROC": 0.6275,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5048,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.5333
+        ],
+        "low_truth_AUROC": 0.727,
+        "low_n_per_class": 177,
+        "high_truth_AUROC": 0.6631,
+        "high_n_per_class": 864,
+        "low_support_only_AUROC": 0.5593,
+        "high_support_only_AUROC": 0.6413
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6954,
+        "n_per_class": 190,
+        "n_correct": 548,
+        "n_incorrect": 190,
+        "rest_truth_AUROC": 0.706,
+        "rest_n_per_class": 1102,
+        "rest_support_only_AUROC": 0.7731
+      }
+    },
+    "gold": {
+      "support_mean": 0.5311,
+      "support_median": 0.5,
+      "frac_unanimous": 0.166,
+      "support_only_AUROC_all": 0.9153,
+      "cells_median_split": {
+        "correct_low": 222,
+        "correct_high": 1428,
+        "incorrect_low": 3534,
+        "incorrect_high": 816
+      },
+      "matched": {
+        "n_pairs": 898,
+        "truth_AUROC": 0.606,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5051,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.6667
+        ],
+        "low_truth_AUROC": null,
+        "low_n_per_class": null,
+        "high_truth_AUROC": 0.6648,
+        "high_n_per_class": 793,
+        "low_support_only_AUROC": null,
+        "high_support_only_AUROC": 0.7097
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6841,
+        "n_per_class": 167,
+        "n_correct": 829,
+        "n_incorrect": 167,
+        "rest_truth_AUROC": 0.6839,
+        "rest_n_per_class": 821,
+        "rest_support_only_AUROC": 0.8709
+      }
+    }
+  },
+  {
+    "model": "qwen3-14b",
+    "n": 6000,
+    "accuracy": 0.566,
+    "frac_long_answers_unclustered": 0.3295,
+    "string": {
+      "support_mean": 0.3648,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.7822,
+      "cells_median_split": {
+        "correct_low": 1294,
+        "correct_high": 2102,
+        "incorrect_low": 2134,
+        "incorrect_high": 470
+      },
+      "matched": {
+        "n_pairs": 1596,
+        "truth_AUROC": 0.7025,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5009,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.4
+        ],
+        "low_truth_AUROC": 0.7887,
+        "low_n_per_class": 1294,
+        "high_truth_AUROC": 0.7373,
+        "high_n_per_class": 470,
+        "low_support_only_AUROC": 0.6851,
+        "high_support_only_AUROC": 0.5562
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.789,
+        "rest_n_per_class": 2604,
+        "rest_support_only_AUROC": 0.7818
+      }
+    },
+    "anchor": {
+      "support_mean": 0.7065,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.4063,
+      "support_only_AUROC_all": 0.8559,
+      "cells_median_split": {
+        "correct_low": 1229,
+        "correct_high": 2167,
+        "incorrect_low": 2333,
+        "incorrect_high": 271
+      },
+      "matched": {
+        "n_pairs": 1252,
+        "truth_AUROC": 0.6459,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5074,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7438,
+        "low_n_per_class": 401,
+        "high_truth_AUROC": 0.6855,
+        "high_n_per_class": 271,
+        "low_support_only_AUROC": 0.7273,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6855,
+        "n_per_class": 271,
+        "n_correct": 2167,
+        "n_incorrect": 271,
+        "rest_truth_AUROC": 0.7309,
+        "rest_n_per_class": 1229,
+        "rest_support_only_AUROC": 0.7694
+      }
+    },
+    "gold": {
+      "support_mean": 0.7325,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.453,
+      "support_only_AUROC_all": 0.9151,
+      "cells_median_split": {
+        "correct_low": 882,
+        "correct_high": 2514,
+        "incorrect_low": 2400,
+        "incorrect_high": 204
+      },
+      "matched": {
+        "n_pairs": 868,
+        "truth_AUROC": 0.6159,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5016,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.6,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7029,
+        "low_n_per_class": 207,
+        "high_truth_AUROC": 0.671,
+        "high_n_per_class": 204,
+        "low_support_only_AUROC": 0.9145,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.671,
+        "n_per_class": 204,
+        "n_correct": 2514,
+        "n_incorrect": 204,
+        "rest_truth_AUROC": 0.6826,
+        "rest_n_per_class": 882,
+        "rest_support_only_AUROC": 0.8517
+      }
+    }
+  },
+  {
+    "model": "qwen3-32b",
+    "n": 6000,
+    "accuracy": 0.5965,
+    "frac_long_answers_unclustered": 0.3344,
+    "string": {
+      "support_mean": 0.3412,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0003,
+      "support_only_AUROC_all": 0.7579,
+      "cells_median_split": {
+        "correct_low": 1812,
+        "correct_high": 1767,
+        "incorrect_low": 2101,
+        "incorrect_high": 320
+      },
+      "matched": {
+        "n_pairs": 1562,
+        "truth_AUROC": 0.7324,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5003,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.4
+        ],
+        "low_truth_AUROC": 0.7724,
+        "low_n_per_class": 683,
+        "high_truth_AUROC": 0.7492,
+        "high_n_per_class": 320,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.4975
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 2,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.8004,
+        "rest_n_per_class": 2421,
+        "rest_support_only_AUROC": 0.7576
+      }
+    },
+    "anchor": {
+      "support_mean": 0.7079,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.4115,
+      "support_only_AUROC_all": 0.8678,
+      "cells_median_split": {
+        "correct_low": 1331,
+        "correct_high": 2248,
+        "incorrect_low": 2200,
+        "incorrect_high": 221
+      },
+      "matched": {
+        "n_pairs": 1113,
+        "truth_AUROC": 0.6542,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5109,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.72,
+        "low_n_per_class": 405,
+        "high_truth_AUROC": 0.6575,
+        "high_n_per_class": 221,
+        "low_support_only_AUROC": 0.7118,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6575,
+        "n_per_class": 221,
+        "n_correct": 2248,
+        "n_incorrect": 221,
+        "rest_truth_AUROC": 0.7548,
+        "rest_n_per_class": 1331,
+        "rest_support_only_AUROC": 0.7904
+      }
+    },
+    "gold": {
+      "support_mean": 0.7422,
+      "support_median": 0.8333,
+      "frac_unanimous": 0.4873,
+      "support_only_AUROC_all": 0.9268,
+      "cells_median_split": {
+        "correct_low": 836,
+        "correct_high": 2743,
+        "incorrect_low": 2240,
+        "incorrect_high": 181
+      },
+      "matched": {
+        "n_pairs": 747,
+        "truth_AUROC": 0.6066,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5033,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.6667,
+          1.0
+        ],
+        "low_truth_AUROC": 0.6436,
+        "low_n_per_class": 433,
+        "high_truth_AUROC": 0.6219,
+        "high_n_per_class": 181,
+        "low_support_only_AUROC": 0.8551,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6219,
+        "n_per_class": 181,
+        "n_correct": 2743,
+        "n_incorrect": 181,
+        "rest_truth_AUROC": 0.6953,
+        "rest_n_per_class": 836,
+        "rest_support_only_AUROC": 0.8783
+      }
+    }
+  },
+  {
+    "model": "qwen3-4b",
+    "n": 6000,
+    "accuracy": 0.3762,
+    "frac_long_answers_unclustered": 0.493,
+    "string": {
+      "support_mean": 0.3624,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.7614,
+      "cells_median_split": {
+        "correct_low": 838,
+        "correct_high": 1419,
+        "incorrect_low": 2959,
+        "incorrect_high": 784
+      },
+      "matched": {
+        "n_pairs": 1622,
+        "truth_AUROC": 0.6731,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5013,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.2,
+          0.4
+        ],
+        "low_truth_AUROC": 0.752,
+        "low_n_per_class": 301,
+        "high_truth_AUROC": 0.6919,
+        "high_n_per_class": 784,
+        "low_support_only_AUROC": 0.5,
+        "high_support_only_AUROC": 0.6104
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7617,
+        "rest_n_per_class": 2257,
+        "rest_support_only_AUROC": 0.7649
+      }
+    },
+    "anchor": {
+      "support_mean": 0.5888,
+      "support_median": 0.5,
+      "frac_unanimous": 0.2267,
+      "support_only_AUROC_all": 0.835,
+      "cells_median_split": {
+        "correct_low": 433,
+        "correct_high": 1824,
+        "incorrect_low": 2719,
+        "incorrect_high": 1024
+      },
+      "matched": {
+        "n_pairs": 1313,
+        "truth_AUROC": 0.6237,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5089,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.4,
+          0.6667
+        ],
+        "low_truth_AUROC": 0.7213,
+        "low_n_per_class": 198,
+        "high_truth_AUROC": 0.7248,
+        "high_n_per_class": 994,
+        "low_support_only_AUROC": 0.612,
+        "high_support_only_AUROC": 0.7034
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6182,
+        "n_per_class": 258,
+        "n_correct": 1102,
+        "n_incorrect": 258,
+        "rest_truth_AUROC": 0.7167,
+        "rest_n_per_class": 1155,
+        "rest_support_only_AUROC": 0.7634
+      }
+    },
+    "gold": {
+      "support_mean": 0.6134,
+      "support_median": 0.6,
+      "frac_unanimous": 0.2618,
+      "support_only_AUROC_all": 0.9114,
+      "cells_median_split": {
+        "correct_low": 240,
+        "correct_high": 2017,
+        "incorrect_low": 2782,
+        "incorrect_high": 961
+      },
+      "matched": {
+        "n_pairs": 959,
+        "truth_AUROC": 0.6174,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5089,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.4,
+          0.8333
+        ],
+        "low_truth_AUROC": null,
+        "low_n_per_class": null,
+        "high_truth_AUROC": 0.7381,
+        "high_n_per_class": 437,
+        "low_support_only_AUROC": null,
+        "high_support_only_AUROC": 0.6991
+      },
+      "unanimous": {
+        "truth_AUROC": 0.7472,
+        "n_per_class": 192,
+        "n_correct": 1379,
+        "n_incorrect": 192,
+        "rest_truth_AUROC": 0.7097,
+        "rest_n_per_class": 878,
+        "rest_support_only_AUROC": 0.8624
+      }
+    }
+  },
+  {
+    "model": "qwen3-8b",
+    "n": 6000,
+    "accuracy": 0.491,
+    "frac_long_answers_unclustered": 0.4555,
+    "string": {
+      "support_mean": 0.3761,
+      "support_median": 0.3333,
+      "frac_unanimous": 0.0,
+      "support_only_AUROC_all": 0.7849,
+      "cells_median_split": {
+        "correct_low": 1050,
+        "correct_high": 1896,
+        "incorrect_low": 2470,
+        "incorrect_high": 584
+      },
+      "matched": {
+        "n_pairs": 1634,
+        "truth_AUROC": 0.6919,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5006,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.3333,
+          0.4
+        ],
+        "low_truth_AUROC": 0.757,
+        "low_n_per_class": 1050,
+        "high_truth_AUROC": 0.7071,
+        "high_n_per_class": 584,
+        "low_support_only_AUROC": 0.6362,
+        "high_support_only_AUROC": 0.6136
+      },
+      "unanimous": {
+        "truth_AUROC": null,
+        "n_per_class": null,
+        "n_correct": 0,
+        "n_incorrect": 0,
+        "rest_truth_AUROC": 0.7733,
+        "rest_n_per_class": 2946,
+        "rest_support_only_AUROC": 0.7859
+      }
+    },
+    "anchor": {
+      "support_mean": 0.6549,
+      "support_median": 0.6667,
+      "frac_unanimous": 0.3348,
+      "support_only_AUROC_all": 0.8453,
+      "cells_median_split": {
+        "correct_low": 876,
+        "correct_high": 2070,
+        "incorrect_low": 2541,
+        "incorrect_high": 513
+      },
+      "matched": {
+        "n_pairs": 1336,
+        "truth_AUROC": 0.6354,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5066,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7153,
+        "low_n_per_class": 450,
+        "high_truth_AUROC": 0.6569,
+        "high_n_per_class": 274,
+        "low_support_only_AUROC": 0.6793,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6569,
+        "n_per_class": 274,
+        "n_correct": 1735,
+        "n_incorrect": 274,
+        "rest_truth_AUROC": 0.7258,
+        "rest_n_per_class": 1211,
+        "rest_support_only_AUROC": 0.7555
+      }
+    },
+    "gold": {
+      "support_mean": 0.6817,
+      "support_median": 0.6667,
+      "frac_unanimous": 0.3808,
+      "support_only_AUROC_all": 0.9086,
+      "cells_median_split": {
+        "correct_low": 581,
+        "correct_high": 2365,
+        "incorrect_low": 2606,
+        "incorrect_high": 448
+      },
+      "matched": {
+        "n_pairs": 961,
+        "truth_AUROC": 0.5948,
+        "support_only_AUROC": 0.5,
+        "entropy_only_AUROC": 0.5041,
+        "support_gap": 0.0
+      },
+      "terciles": {
+        "cutpoints": [
+          0.5,
+          1.0
+        ],
+        "low_truth_AUROC": 0.7072,
+        "low_n_per_class": 178,
+        "high_truth_AUROC": 0.6863,
+        "high_n_per_class": 229,
+        "low_support_only_AUROC": 0.8904,
+        "high_support_only_AUROC": 0.5
+      },
+      "unanimous": {
+        "truth_AUROC": 0.6863,
+        "n_per_class": 229,
+        "n_correct": 2056,
+        "n_incorrect": 229,
+        "rest_truth_AUROC": 0.6626,
+        "rest_n_per_class": 890,
+        "rest_support_only_AUROC": 0.8282
+      }
+    }
+  }
+]

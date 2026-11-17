@@ -1,0 +1,9 @@
+{
+  "model": "llama3-8b-legacy",
+  "size_b": 8.0,
+  "n_conflict": 94,
+  "n_control": 0,
+  "verbatim_override": 0.6809,
+  "followed_parametric": 0.1277,
+  "over_deference": null
+}

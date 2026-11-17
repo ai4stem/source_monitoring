@@ -1,0 +1,42 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# large / regenerable artefacts (hidden states, probed sets, checkpoints, caches)
+*.npz
+*.jsonl
+*.safetensors
+*.bin
+*.pt
+src/outputs/*/
+data/frozen/
+
+# run logs
+*.out
+*.log
+
+# stray directory created by an unexpanded brace pattern
+{src,data,outputs,configs}/
+
+# internal working documents and superseded drafts (kept locally, not published)
+/00_READ_FIRST.txt
+/HANDOFF_claude_cli.md
+/REUSE_FROM_PRIOR_CODE.md
+/experiments_readme.md
+/intro_revision_final.md
+/paper_outline_v2.md
+/renumber_plan.md
+/memo_to_coauthor*.md
+/manuscript/
+/*.docx
+/figure1_pipeline.svg
+/figure2_findings.svg
+/figure3*.svg
+/src/ok.txt
+
+# small per-fact support files are published
+!src/outputs/support_semantic_*.npz
+!src/outputs/support_nli_*.npz

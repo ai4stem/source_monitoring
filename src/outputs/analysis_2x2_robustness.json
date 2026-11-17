@@ -1,0 +1,509 @@
+[
+  {
+    "model": "gemma3-12b",
+    "seeds": {
+      "values": [
+        0.6457,
+        0.6456,
+        0.6401,
+        0.6536,
+        0.6629
+      ],
+      "mean": 0.6496,
+      "sd": 0.0089
+    },
+    "best_of_four": 0.6457,
+    "best_depth": 0.6,
+    "per_depth": {
+      "0.4": 0.644,
+      "0.6": 0.6457,
+      "0.8": 0.6008,
+      "1.0": 0.6244
+    },
+    "nested": 0.6378,
+    "nested_depths": [
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "mlp_at_best_depth": 0.6792,
+    "stability_within_correct": {
+      "AUROC": 0.6442,
+      "n_per_class": 984
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.6745,
+      "n_per_class": 386
+    }
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "seeds": {
+      "values": [
+        0.6361,
+        0.6217,
+        0.6259,
+        0.6161,
+        0.6136
+      ],
+      "mean": 0.6227,
+      "sd": 0.0089
+    },
+    "best_of_four": 0.6361,
+    "best_depth": 0.4,
+    "per_depth": {
+      "0.4": 0.6361,
+      "0.6": 0.6148,
+      "0.8": 0.5933,
+      "1.0": 0.5905
+    },
+    "nested": 0.612,
+    "nested_depths": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "mlp_at_best_depth": 0.6663,
+    "stability_within_correct": {
+      "AUROC": 0.6164,
+      "n_per_class": 1386
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.7571,
+      "n_per_class": 248
+    }
+  },
+  {
+    "model": "llama32-1b",
+    "seeds": {
+      "values": [
+        0.6792,
+        0.6716,
+        0.6728,
+        0.6573,
+        0.6664
+      ],
+      "mean": 0.6695,
+      "sd": 0.0082
+    },
+    "best_of_four": 0.6792,
+    "best_depth": 1.0,
+    "per_depth": {
+      "0.4": 0.6598,
+      "0.6": 0.6679,
+      "0.8": 0.6479,
+      "1.0": 0.6792
+    },
+    "nested": 0.6679,
+    "nested_depths": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "mlp_at_best_depth": 0.7011,
+    "stability_within_correct": {
+      "AUROC": 0.6632,
+      "n_per_class": 567
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.776,
+      "n_per_class": 77
+    }
+  },
+  {
+    "model": "llama32-3b",
+    "seeds": {
+      "values": [
+        0.6355,
+        0.6414,
+        0.646,
+        0.6296,
+        0.6393
+      ],
+      "mean": 0.6384,
+      "sd": 0.0062
+    },
+    "best_of_four": 0.6355,
+    "best_depth": 0.4,
+    "per_depth": {
+      "0.4": 0.6355,
+      "0.6": 0.6125,
+      "0.8": 0.6034,
+      "1.0": 0.6109
+    },
+    "nested": 0.6296,
+    "nested_depths": [
+      1.0,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "mlp_at_best_depth": 0.674,
+    "stability_within_correct": {
+      "AUROC": 0.702,
+      "n_per_class": 1379
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.8181,
+      "n_per_class": 124
+    }
+  },
+  {
+    "model": "mistral-7b",
+    "seeds": {
+      "values": [
+        0.6535,
+        0.6599,
+        0.6507,
+        0.654,
+        0.65
+      ],
+      "mean": 0.6536,
+      "sd": 0.0039
+    },
+    "best_of_four": 0.6535,
+    "best_depth": 0.4,
+    "per_depth": {
+      "0.4": 0.6535,
+      "0.6": 0.6393,
+      "0.8": 0.6414,
+      "1.0": 0.6339
+    },
+    "nested": 0.6471,
+    "nested_depths": [
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "mlp_at_best_depth": 0.6957,
+    "stability_within_correct": {
+      "AUROC": 0.6432,
+      "n_per_class": 1634
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.7227,
+      "n_per_class": 215
+    }
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "seeds": {
+      "values": [
+        0.6764,
+        0.6797,
+        0.6649,
+        0.6702,
+        0.6818
+      ],
+      "mean": 0.6746,
+      "sd": 0.007
+    },
+    "best_of_four": 0.6764,
+    "best_depth": 0.4,
+    "per_depth": {
+      "0.4": 0.6764,
+      "0.6": 0.6529,
+      "0.8": 0.6492,
+      "1.0": 0.6318
+    },
+    "nested": 0.6764,
+    "nested_depths": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "mlp_at_best_depth": 0.6812,
+    "stability_within_correct": {
+      "AUROC": 0.6227,
+      "n_per_class": 1674
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.6529,
+      "n_per_class": 176
+    }
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "seeds": {
+      "values": [
+        0.6182,
+        0.6186,
+        0.6019,
+        0.6244,
+        0.6078
+      ],
+      "mean": 0.6142,
+      "sd": 0.0091
+    },
+    "best_of_four": 0.6182,
+    "best_depth": 0.6,
+    "per_depth": {
+      "0.4": 0.602,
+      "0.6": 0.6182,
+      "0.8": 0.5807,
+      "1.0": 0.5783
+    },
+    "nested": 0.5889,
+    "nested_depths": [
+      0.4,
+      1.0,
+      0.6,
+      0.6,
+      1.0
+    ],
+    "mlp_at_best_depth": 0.6307,
+    "stability_within_correct": {
+      "AUROC": 0.5904,
+      "n_per_class": 1435
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.6663,
+      "n_per_class": 102
+    }
+  },
+  {
+    "model": "phi4-mini",
+    "seeds": {
+      "values": [
+        0.6033,
+        0.6034,
+        0.6166,
+        0.6202,
+        0.6158
+      ],
+      "mean": 0.6118,
+      "sd": 0.008
+    },
+    "best_of_four": 0.6033,
+    "best_depth": 0.4,
+    "per_depth": {
+      "0.4": 0.6033,
+      "0.6": 0.5971,
+      "0.8": 0.5999,
+      "1.0": 0.5808
+    },
+    "nested": 0.5884,
+    "nested_depths": [
+      0.8,
+      0.8,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "mlp_at_best_depth": 0.6224,
+    "stability_within_correct": {
+      "AUROC": 0.6215,
+      "n_per_class": 1114
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.6296,
+      "n_per_class": 126
+    }
+  },
+  {
+    "model": "qwen3-1.7b",
+    "seeds": {
+      "values": [
+        0.6275,
+        0.6343,
+        0.6352,
+        0.6543,
+        0.6349
+      ],
+      "mean": 0.6372,
+      "sd": 0.01
+    },
+    "best_of_four": 0.6275,
+    "best_depth": 1.0,
+    "per_depth": {
+      "0.4": 0.6128,
+      "0.6": 0.6045,
+      "0.8": 0.6188,
+      "1.0": 0.6275
+    },
+    "nested": 0.6182,
+    "nested_depths": [
+      0.6,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mlp_at_best_depth": 0.6685,
+    "stability_within_correct": {
+      "AUROC": 0.6171,
+      "n_per_class": 548
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.6488,
+      "n_per_class": 190
+    }
+  },
+  {
+    "model": "qwen3-14b",
+    "seeds": {
+      "values": [
+        0.6459,
+        0.6578,
+        0.6544,
+        0.658,
+        0.6399
+      ],
+      "mean": 0.6512,
+      "sd": 0.008
+    },
+    "best_of_four": 0.6459,
+    "best_depth": 0.6,
+    "per_depth": {
+      "0.4": 0.6148,
+      "0.6": 0.6459,
+      "0.8": 0.6419,
+      "1.0": 0.6169
+    },
+    "nested": 0.6448,
+    "nested_depths": [
+      0.8,
+      0.8,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "mlp_at_best_depth": 0.6495,
+    "stability_within_correct": {
+      "AUROC": 0.6552,
+      "n_per_class": 1229
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.7161,
+      "n_per_class": 271
+    }
+  },
+  {
+    "model": "qwen3-32b",
+    "seeds": {
+      "values": [
+        0.6542,
+        0.6214,
+        0.6473,
+        0.6378,
+        0.6326
+      ],
+      "mean": 0.6387,
+      "sd": 0.0127
+    },
+    "best_of_four": 0.6542,
+    "best_depth": 1.0,
+    "per_depth": {
+      "0.4": 0.6494,
+      "0.6": 0.6233,
+      "0.8": 0.6486,
+      "1.0": 0.6542
+    },
+    "nested": 0.6402,
+    "nested_depths": [
+      0.8,
+      0.8,
+      1.0,
+      0.4,
+      0.4
+    ],
+    "mlp_at_best_depth": 0.6477,
+    "stability_within_correct": {
+      "AUROC": 0.6438,
+      "n_per_class": 1331
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.7068,
+      "n_per_class": 221
+    }
+  },
+  {
+    "model": "qwen3-4b",
+    "seeds": {
+      "values": [
+        0.6237,
+        0.6306,
+        0.6333,
+        0.6358,
+        0.6343
+      ],
+      "mean": 0.6315,
+      "sd": 0.0048
+    },
+    "best_of_four": 0.6237,
+    "best_depth": 0.8,
+    "per_depth": {
+      "0.4": 0.6063,
+      "0.6": 0.6189,
+      "0.8": 0.6237,
+      "1.0": 0.6039
+    },
+    "nested": 0.6181,
+    "nested_depths": [
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.8
+    ],
+    "mlp_at_best_depth": 0.6548,
+    "stability_within_correct": {
+      "AUROC": 0.6457,
+      "n_per_class": 1102
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.6462,
+      "n_per_class": 258
+    }
+  },
+  {
+    "model": "qwen3-8b",
+    "seeds": {
+      "values": [
+        0.6354,
+        0.6304,
+        0.6172,
+        0.6436,
+        0.6354
+      ],
+      "mean": 0.6324,
+      "sd": 0.0097
+    },
+    "best_of_four": 0.6354,
+    "best_depth": 0.6,
+    "per_depth": {
+      "0.4": 0.6131,
+      "0.6": 0.6354,
+      "0.8": 0.6195,
+      "1.0": 0.6116
+    },
+    "nested": 0.6354,
+    "nested_depths": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "mlp_at_best_depth": 0.6635,
+    "stability_within_correct": {
+      "AUROC": 0.6417,
+      "n_per_class": 1211
+    },
+    "stability_within_incorrect": {
+      "AUROC": 0.7376,
+      "n_per_class": 274
+    }
+  }
+]

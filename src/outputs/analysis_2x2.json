@@ -1,0 +1,262 @@
+[
+  {
+    "model": "gemma3-12b",
+    "n": 6000,
+    "support_terciles": [
+      0.333,
+      0.5
+    ],
+    "Q1_support_within_correct_AUROC": 0.6937,
+    "Q1_support_within_incorrect_AUROC": 0.62,
+    "Q1_n_per_class": 902,
+    "Q2_truth_within_lowsupport_AUROC": 0.7662,
+    "Q2_truth_within_highsupport_AUROC": 0.7355,
+    "Q2_n_low": 902,
+    "Q2_n_high": 719,
+    "Q2_support_only_lowstratum": 0.5782,
+    "Q2_support_only_highstratum": 0.6317,
+    "Q2_entropy_only_lowstratum": 0.5782,
+    "support_gap_low_stratum": 0.0216,
+    "support_gap_high_stratum": 0.0421
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.4
+    ],
+    "Q1_support_within_correct_AUROC": 0.7305,
+    "Q1_support_within_incorrect_AUROC": 0.7267,
+    "Q1_n_per_class": 805,
+    "Q2_truth_within_lowsupport_AUROC": 0.749,
+    "Q2_truth_within_highsupport_AUROC": 0.7114,
+    "Q2_n_low": 805,
+    "Q2_n_high": 285,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.567,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.0348
+  },
+  {
+    "model": "llama32-1b",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.333
+    ],
+    "Q1_support_within_correct_AUROC": 0.6685,
+    "Q1_support_within_incorrect_AUROC": 0.6142,
+    "Q1_n_per_class": 766,
+    "Q2_truth_within_lowsupport_AUROC": 0.7492,
+    "Q2_truth_within_highsupport_AUROC": 0.6828,
+    "Q2_n_low": 766,
+    "Q2_n_high": 931,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.6466,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.0611
+  },
+  {
+    "model": "llama32-3b",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.333
+    ],
+    "Q1_support_within_correct_AUROC": 0.6626,
+    "Q1_support_within_incorrect_AUROC": 0.6293,
+    "Q1_n_per_class": 688,
+    "Q2_truth_within_lowsupport_AUROC": 0.7705,
+    "Q2_truth_within_highsupport_AUROC": 0.7446,
+    "Q2_n_low": 688,
+    "Q2_n_high": 919,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.6557,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.0585
+  },
+  {
+    "model": "mistral-7b",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.2
+    ],
+    "Q1_support_within_correct_AUROC": -1,
+    "Q1_support_within_incorrect_AUROC": -1,
+    "Q1_n_per_class": 3025,
+    "Q2_truth_within_lowsupport_AUROC": 0.7439,
+    "Q2_truth_within_highsupport_AUROC": 0.7522,
+    "Q2_n_low": 2147,
+    "Q2_n_high": 2241,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.5754,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.032
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "n": 6000,
+    "support_terciles": [
+      0.333,
+      0.5
+    ],
+    "Q1_support_within_correct_AUROC": 0.6334,
+    "Q1_support_within_incorrect_AUROC": 0.6817,
+    "Q1_n_per_class": 1666,
+    "Q2_truth_within_lowsupport_AUROC": 0.7481,
+    "Q2_truth_within_highsupport_AUROC": 0.6668,
+    "Q2_n_low": 1666,
+    "Q2_n_high": 332,
+    "Q2_support_only_lowstratum": 0.6432,
+    "Q2_support_only_highstratum": 0.5602,
+    "Q2_entropy_only_lowstratum": 0.6432,
+    "support_gap_low_stratum": 0.0389,
+    "support_gap_high_stratum": 0.0239
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.333
+    ],
+    "Q1_support_within_correct_AUROC": 0.6109,
+    "Q1_support_within_incorrect_AUROC": 0.6296,
+    "Q1_n_per_class": 987,
+    "Q2_truth_within_lowsupport_AUROC": 0.7042,
+    "Q2_truth_within_highsupport_AUROC": 0.6637,
+    "Q2_n_low": 987,
+    "Q2_n_high": 563,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.6266,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.043
+  },
+  {
+    "model": "phi4-mini",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.333
+    ],
+    "Q1_support_within_correct_AUROC": 0.6467,
+    "Q1_support_within_incorrect_AUROC": 0.6303,
+    "Q1_n_per_class": 540,
+    "Q2_truth_within_lowsupport_AUROC": 0.7609,
+    "Q2_truth_within_highsupport_AUROC": 0.6674,
+    "Q2_n_low": 540,
+    "Q2_n_high": 1141,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.6986,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.1048
+  },
+  {
+    "model": "qwen3-1.7b",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.333
+    ],
+    "Q1_support_within_correct_AUROC": 0.632,
+    "Q1_support_within_incorrect_AUROC": 0.5774,
+    "Q1_n_per_class": 396,
+    "Q2_truth_within_lowsupport_AUROC": 0.7307,
+    "Q2_truth_within_highsupport_AUROC": 0.6852,
+    "Q2_n_low": 396,
+    "Q2_n_high": 1254,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.646,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.0555
+  },
+  {
+    "model": "qwen3-14b",
+    "n": 6000,
+    "support_terciles": [
+      0.333,
+      0.4
+    ],
+    "Q1_support_within_correct_AUROC": 0.6366,
+    "Q1_support_within_incorrect_AUROC": 0.6811,
+    "Q1_n_per_class": 1294,
+    "Q2_truth_within_lowsupport_AUROC": 0.7887,
+    "Q2_truth_within_highsupport_AUROC": 0.7373,
+    "Q2_n_low": 1294,
+    "Q2_n_high": 470,
+    "Q2_support_only_lowstratum": 0.6851,
+    "Q2_support_only_highstratum": 0.5562,
+    "Q2_entropy_only_lowstratum": 0.6851,
+    "support_gap_low_stratum": 0.0476,
+    "support_gap_high_stratum": 0.0319
+  },
+  {
+    "model": "qwen3-32b",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.4
+    ],
+    "Q1_support_within_correct_AUROC": 0.7238,
+    "Q1_support_within_incorrect_AUROC": 0.7113,
+    "Q1_n_per_class": 683,
+    "Q2_truth_within_lowsupport_AUROC": 0.7724,
+    "Q2_truth_within_highsupport_AUROC": 0.7492,
+    "Q2_n_low": 683,
+    "Q2_n_high": 320,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.4975,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.002
+  },
+  {
+    "model": "qwen3-4b",
+    "n": 6000,
+    "support_terciles": [
+      0.2,
+      0.4
+    ],
+    "Q1_support_within_correct_AUROC": 0.6968,
+    "Q1_support_within_incorrect_AUROC": 0.7306,
+    "Q1_n_per_class": 301,
+    "Q2_truth_within_lowsupport_AUROC": 0.752,
+    "Q2_truth_within_highsupport_AUROC": 0.6919,
+    "Q2_n_low": 301,
+    "Q2_n_high": 784,
+    "Q2_support_only_lowstratum": 0.5,
+    "Q2_support_only_highstratum": 0.6104,
+    "Q2_entropy_only_lowstratum": 0.5,
+    "support_gap_low_stratum": 0.0,
+    "support_gap_high_stratum": 0.0457
+  },
+  {
+    "model": "qwen3-8b",
+    "n": 6000,
+    "support_terciles": [
+      0.333,
+      0.4
+    ],
+    "Q1_support_within_correct_AUROC": 0.6612,
+    "Q1_support_within_incorrect_AUROC": 0.6488,
+    "Q1_n_per_class": 1050,
+    "Q2_truth_within_lowsupport_AUROC": 0.757,
+    "Q2_truth_within_highsupport_AUROC": 0.7071,
+    "Q2_n_low": 1050,
+    "Q2_n_high": 584,
+    "Q2_support_only_lowstratum": 0.6362,
+    "Q2_support_only_highstratum": 0.6136,
+    "Q2_entropy_only_lowstratum": 0.6362,
+    "support_gap_low_stratum": 0.0403,
+    "support_gap_high_stratum": 0.0498
+  }
+]

@@ -1,0 +1,15 @@
+# Core (torch-free) -- needed everywhere for data/signals/analysis
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Server-side (GPU) -- needed for real measurement / training
+# install these on your training machine:
+# torch>=2.2
+# transformers>=4.40
+# peft>=0.10
+# accelerate>=0.30
+# bitsandbytes>=0.43    # for QLoRA (30B)
+# datasets>=2.18
+# openai>=1.0           # GPT-4o comparison (prompt-design)
+# anthropic>=0.25       # Claude comparison (prompt-design)

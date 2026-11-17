@@ -1,0 +1,9 @@
+{
+  "model": "mistral-7b",
+  "size_b": 7.0,
+  "n_conflict": 97,
+  "n_control": 0,
+  "verbatim_override": 0.5567,
+  "followed_parametric": 0.4948,
+  "over_deference": null
+}

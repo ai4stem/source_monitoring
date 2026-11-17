@@ -1,0 +1,132 @@
+[
+  {
+    "model": "llama32-1b",
+    "size_b": 1.0,
+    "best_net": 0.225,
+    "best_frac": 0.81,
+    "best_acc": 0.695,
+    "n_param": 806,
+    "n_confab": 1194,
+    "family": "llama"
+  },
+  {
+    "model": "qwen3-1.7b",
+    "size_b": 1.7,
+    "best_net": 0.218,
+    "best_frac": 0.61,
+    "best_acc": 0.69,
+    "n_param": 621,
+    "n_confab": 1379,
+    "family": "qwen3"
+  },
+  {
+    "model": "llama32-3b",
+    "size_b": 3.0,
+    "best_net": 0.255,
+    "best_frac": 1.0,
+    "best_acc": 0.727,
+    "n_param": 1221,
+    "n_confab": 779,
+    "family": "llama"
+  },
+  {
+    "model": "phi4-mini",
+    "size_b": 3.8,
+    "best_net": 0.194,
+    "best_frac": 0.59,
+    "best_acc": 0.698,
+    "n_param": 1101,
+    "n_confab": 899,
+    "family": "phi"
+  },
+  {
+    "model": "phi3-mini-legacy",
+    "size_b": 3.8,
+    "best_net": 0.18,
+    "best_frac": 0.41,
+    "best_acc": 0.67,
+    "n_param": 1265,
+    "n_confab": 735,
+    "family": "phi"
+  },
+  {
+    "model": "qwen3-4b",
+    "size_b": 4.0,
+    "best_net": 0.202,
+    "best_frac": 0.81,
+    "best_acc": 0.691,
+    "n_param": 962,
+    "n_confab": 1038,
+    "family": "qwen3"
+  },
+  {
+    "model": "mistral-7b",
+    "size_b": 7.0,
+    "best_net": 0.154,
+    "best_frac": 0.41,
+    "best_acc": 0.678,
+    "n_param": 1554,
+    "n_confab": 446,
+    "family": "mistral"
+  },
+  {
+    "model": "qwen3-8b",
+    "size_b": 8.0,
+    "best_net": 0.251,
+    "best_frac": 0.61,
+    "best_acc": 0.726,
+    "n_param": 1258,
+    "n_confab": 742,
+    "family": "qwen3"
+  },
+  {
+    "model": "llama3-8b-legacy",
+    "size_b": 8.0,
+    "best_net": 0.23,
+    "best_frac": 0.41,
+    "best_acc": 0.719,
+    "n_param": 1566,
+    "n_confab": 434,
+    "family": "llama"
+  },
+  {
+    "model": "gemma3-12b",
+    "size_b": 12.0,
+    "best_net": 0.163,
+    "best_frac": 0.4,
+    "best_acc": 0.661,
+    "n_param": 1513,
+    "n_confab": 487,
+    "family": "gemma"
+  },
+  {
+    "model": "mistral-nemo-12b",
+    "size_b": 12.0,
+    "best_net": 0.191,
+    "best_frac": 0.4,
+    "best_acc": 0.68,
+    "n_param": 1597,
+    "n_confab": 403,
+    "family": "mistral"
+  },
+  {
+    "model": "qwen3-14b",
+    "size_b": 14.0,
+    "best_net": 0.211,
+    "best_frac": 0.6,
+    "best_acc": 0.722,
+    "n_param": 1470,
+    "n_confab": 530,
+    "family": "qwen3"
+  },
+  {
+    "model": "qwen3-32b",
+    "size_b": 32.0,
+    "best_net": 0.242,
+    "best_frac": 0.8,
+    "best_acc": 0.72,
+    "n_param": 1536,
+    "n_confab": 464,
+    "family": "qwen3"
+  }
+]
